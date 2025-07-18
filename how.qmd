@@ -1,0 +1,40 @@
+---
+title: "How It Works"
+---
+
+| Step             | Iconify Code                                      |
+|------------------|---------------------------------------------------|
+| Launch Survey    | {{< iconify mdi:email-send color=red width=32 >}} |
+| Collect Data     | {{< iconify mdi:database color=teal width=32 >}}  |
+| Get Reports      | {{< iconify mdi:file-chart color=gold width=32 >}}|
+| Take Action      | {{< iconify mdi:lightbulb-on color=blue width=32 >}}|
+
+![image1](image1)
+
+# How VIBE Works
+
+VIBE streamlines engagement measurement from start to finish.  
+Here’s what you can expect:
+
+## 1. Survey Launch
+- Customizable invitations sent to your team
+- Confidential and mobile-friendly
+
+## 2. Data Collection
+- Employees respond securely
+- Real-time monitoring for response rates
+
+## 3. Reporting & Insights
+- Immediate feedback reports
+- Visual dashboards highlight strengths and opportunities
+- Action recommendations for HR and managers
+
+## 4. Support & Consultation
+- Expert guidance on interpreting results
+- Optional workshops to boost engagement
+
+::: {.callout-note}
+**Simple. Secure. Insightful.**
+:::
+
+[Download Sample Report](#){.btn .btn-danger}

@@ -1,0 +1,72 @@
+---
+title: "Why VIBE"
+---
+
+![image1](image1)
+
+- {{< iconify mdi:shield-check color=blue width=28 >}} **Confidential**
+- {{< iconify mdi:chart-bar color=teal width=28 >}} **Actionable Reports**
+- {{< iconify mdi:timer-sand-complete color=orange width=28 >}} **Rapid Setup**
+- {{< iconify mdi:account-tie color=purple width=28 >}} **Expert Support**
+
+# Why Choose VIBE?
+
+VIBE is more than just an employee survey—it's a catalyst for organizational growth.  
+Our unique approach measures what truly matters: **Vigor, Immersion, Belongingness, and Engagement**.
+
+## Distinct Advantages
+
+- **Purpose-built for mid-sized organizations (300–700 employees)**
+- **Confidential administration** ensures honest feedback
+- **Actionable, easy-to-understand reports** for HR and leadership
+- **Rapid setup:** Launch in days, not weeks
+- **Expert support:** Guidance from survey specialists
+
+## What Makes VIBE Different?
+
+::: {.callout-note}
+- Proprietary metrics tailored to today's workforce
+- Intuitive dashboards and visual feedback
+- Proven impact on retention and satisfaction
+:::
+
+Ready for a healthier, more engaged workplace?  
+[Request a Demo](contact.qmd){.btn .btn-danger}
+
+## The Four Dimensions of VIBE
+
+<div style="display: flex; justify-content: center; gap: 2.5em; margin-bottom: 2em;">
+
+<div style="text-align:center; width:120px;">
+{{< iconify mdi:flash-outline color=red width=48 >}}
+<br>
+**Vigor**
+<br>
+<span style="color: #ff3d3d;">Energy & drive</span>
+</div>
+
+<div style="text-align:center; width:120px;">
+{{< iconify mdi:water-outline color=blue width=48 >}}
+<br>
+**Immersion**
+<br>
+<span style="color: #2986cc;">Focus & flow</span>
+</div>
+
+<div style="text-align:center; width:120px;">
+{{< iconify mdi:account-group-outline color=teal width=48 >}}
+<br>
+**Belongingness**
+<br>
+<span style="color: #00bfae;">Connection & inclusion</span>
+</div>
+
+<div style="text-align:center; width:120px;">
+{{< iconify mdi:star-outline color=gold width=48 >}}
+<br>
+**Engagement**
+<br>
+<span style="color: #ffc300;">Commitment & impact</span>
+</div>
+
+</div>

@@ -1,0 +1,38 @@
+---
+title: "Contact"
+---
+
+![image1](image1)
+
+# Get in Touch
+
+Ready to boost your team’s engagement with VIBE?  
+Complete the form below or reach out directly.
+
+## Contact Form
+
+```{=html}
+<form action="mailto:info@vibesurvey.com" method="POST" enctype="text/plain">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+  <label for="org">Organization:</label><br>
+  <input type="text" id="org" name="organization" required><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea><br><br>
+  <input type="submit" value="Send" class="btn btn-danger">
+</form>
+```
+
+Or email us directly: [info@vibesurvey.com](mailto:info@vibesurvey.com)
+
+{{< iconify mdi:email-edit color=red width=32 >}}  
+Or reach us at [info@vibesurvey.com](mailto:info@vibesurvey.com)
+
+---
+
+**VIBE Survey**  
+1234 Engagement Avenue  
+Your City, ST 12345  
+Phone: (555) 123-4567
