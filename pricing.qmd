@@ -3,7 +3,7 @@ title: "Pricing"
 ---
 
 {{< iconify mdi:currency-usd color=green width=36 >}}  
-Transparent, simple packages.
+Transparent, simple packages?
 
 
 ![image1](image1)
