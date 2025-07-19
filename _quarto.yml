@@ -22,5 +22,7 @@ website:
     right: "Privacy Policy | Contact"
 format:
   html:
-    theme: flatly
+    theme: 
+      light: flatly
+      dark: darkly
     css: styles.css
