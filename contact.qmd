@@ -1,22 +1,25 @@
 ---
-title: "Contact"
+title: ""
 ---
 
-![image1](image1)
+![](image1)
 
 # Get in Touch
 
-Ready to boost your team’s engagement with VIBE?  
+Ready to boost your organization’s [VIBE]{.vibe}?  
+
 Complete the form below or reach out directly.
 
-## Contact Form
+## Contact Form {#contact}
 
 ```{=html}
-<form action="mailto:info@vibesurvey.com" method="POST" enctype="text/plain">
+<form action="mailto:jtkulas@ergreports.com" method="POST" enctype="text/plain">
   <label for="name">Name:</label><br>
   <input type="text" id="name" name="name" required><br><br>
-  <label for="org">Organization:</label><br>
+  <label for="org">Organization Name:</label><br>
   <input type="text" id="org" name="organization" required><br><br>
+  <label for="siz">Size (Approximate number of employees):</label><br>
+  <input type="text" id="siz" name="size" required><br><br>
   <label for="email">Email:</label><br>
   <input type="email" id="email" name="email" required><br><br>
   <label for="message">Message:</label><br>
@@ -25,14 +28,10 @@ Complete the form below or reach out directly.
 </form>
 ```
 
-Or email us directly: [info@vibesurvey.com](mailto:info@vibesurvey.com)
-
-{{< iconify mdi:email-edit color=red width=32 >}}  
-Or reach us at [info@vibesurvey.com](mailto:info@vibesurvey.com)
+Or email us directly: {{< iconify mdi:email-edit color=red width=32 >}}  [info@vibesurvey.com](mailto:info@vibesurvey.com)
 
 ---
 
-**VIBE Survey**  
-1234 Engagement Avenue  
-Your City, ST 12345  
-Phone: (555) 123-4567
+**[VIBE]{.vibe}** is a product division of [eRg](https://www.ergreports.com){.external}  
+Minneapolis, MN 55421  
+Phone: (651) 216-3353

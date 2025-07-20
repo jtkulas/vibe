@@ -30,3 +30,8 @@ body {
 .vibe {
   font-family: 'Peralta';
 }
+
+.underline {
+  text-decoration: underline;
+}
+
