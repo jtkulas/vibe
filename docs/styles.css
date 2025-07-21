@@ -1,8 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Peralta');
+@keyframes shake {
+  10% { transform: rotate(0deg);}
+  11% { transform: rotate(-2deg);}
+  12% { transform: rotate(2deg);} 
+  13% { transform: rotate(-5deg);} 
+  14% { transform: rotate(5deg);}
+  16% { transform: rotate(2deg);}
+  17% { transform: rotate(0deg);}
+  100% { transform: rotate(0deg); } 
+}
+
+a {
+  color: #708090; /* Default link color */
+  text-decoration: underline; /* Optional: removes underline */
+}
+a:hover {
+  color: #778899; /* Color on hover */
+  text-decoration: none; /* Optional: underline on hover */
+}
+a:visited {
+  color: #696969; /* Color for visited links */
+}
 
 body {
   font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
 }
+
+.shake {
+  animation-name: shake;
+  animation-duration: 4s; /* Total cycle: 2s shake + 2s pause */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; /* Smooths the shake motion */
+}
+
 .navbar {
   background-color: #101010;
 }
@@ -34,4 +64,3 @@ body {
 .underline {
   text-decoration: underline;
 }
-

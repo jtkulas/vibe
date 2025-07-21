@@ -8,30 +8,29 @@ title: ""
 
 Ready to boost your organization’s [VIBE]{.vibe}?  
 
-Complete the form below or reach out directly.
+Complete the form below or [reach out directly {{< iconify mdi:email-edit style="color:red" width=32 >}}](mailto:jtkulas@ergreports.com)
 
 ## Contact Form {#contact}
 
 ```{=html}
 <form action="mailto:jtkulas@ergreports.com" method="POST" enctype="text/plain">
-  <label for="name">Name:</label><br>
+  <label for="name">Your Name:</label><br>
   <input type="text" id="name" name="name" required><br><br>
   <label for="org">Organization Name:</label><br>
   <input type="text" id="org" name="organization" required><br><br>
-  <label for="siz">Size (Approximate number of employees):</label><br>
+  <label for="siz">Org Size (approximate # of employees):</label><br>
   <input type="text" id="siz" name="size" required><br><br>
-  <label for="email">Email:</label><br>
+  <label for="email">Your Email:</label><br>
   <input type="email" id="email" name="email" required><br><br>
   <label for="message">Message:</label><br>
   <textarea id="message" name="message" rows="4" required></textarea><br><br>
+  <label for="code">Referral Name or Code:</label><br>
+  <input type="code" id="code" name="code" required></textarea><br><br>
   <input type="submit" value="Send" class="btn btn-danger">
 </form>
 ```
 
-Or email us directly: {{< iconify mdi:email-edit color=red width=32 >}}  [info@vibesurvey.com](mailto:info@vibesurvey.com)
-
 ---
 
-**[VIBE]{.vibe}** is a product division of [eRg](https://www.ergreports.com){.external}  
+**[VIBE]{.vibe}** is a product division of [![](img/erg3.png)](https://www.ergreports.com){.external}  
 Minneapolis, MN 55421  
-Phone: (651) 216-3353

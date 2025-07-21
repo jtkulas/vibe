@@ -221,7 +221,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -234,6 +235,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -258,10 +267,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./why.html"> 
 <span class="menu-text">Why <span class="vibe">VIBE</span></span></a>
   </li>  
@@ -278,14 +283,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/jtkulas"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="79c5aa480624e2d0d1f8453bba98a5d7" class="alert alert-primary hidden"><i class="bi bi-exclamation-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon> Kickoff Special!! <iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon> Enter code: <a href="./contact.html">Vibe2025</a> for 10% discount prior to September 30</p>
+  <div id="quarto-announcement" data-announcement-id="3b62dd90153dfd7808174d60607139fa" class="alert alert-primary hidden"><i class="bi bi-exclamation-triangle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon> KICKOFF SPECIAL!! <iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon> Enter referral code: <a href="./contact.html">Vibe2025</a> for 10% discount prior to September 30</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -304,27 +316,27 @@ ul.task-list li input[type="checkbox"] {
 <section id="get-in-touch" class="level1">
 <h1>Get in Touch</h1>
 <p>Ready to boost your organization’s <span class="vibe">VIBE</span>?</p>
-<p>Complete the form below or reach out directly.</p>
+<p>Complete the form below or <a href="mailto:jtkulas@ergreports.com">reach out directly <iconify-icon role="img" inline="" icon="mdi:email-edit" style="color:red" aria-label="Icon email-edit from mdi Iconify.design set." title="Icon email-edit from mdi Iconify.design set." width="32"></iconify-icon></a></p>
 <section id="contact" class="level2">
 <h2 class="anchored" data-anchor-id="contact">Contact Form</h2>
 <form action="mailto:jtkulas@ergreports.com" method="POST" enctype="text/plain">
-  <label for="name">Name:</label><br>
+  <label for="name">Your Name:</label><br>
   <input type="text" id="name" name="name" required=""><br><br>
   <label for="org">Organization Name:</label><br>
   <input type="text" id="org" name="organization" required=""><br><br>
-  <label for="siz">Size (Approximate number of employees):</label><br>
+  <label for="siz">Org Size (approximate # of employees):</label><br>
   <input type="text" id="siz" name="size" required=""><br><br>
-  <label for="email">Email:</label><br>
+  <label for="email">Your Email:</label><br>
   <input type="email" id="email" name="email" required=""><br><br>
   <label for="message">Message:</label><br>
   <textarea id="message" name="message" rows="4" required=""></textarea><br><br>
+  <label for="code">Referral Name or Code:</label><br>
+  <input type="code" id="code" name="code" required=""><br><br>
   <input type="submit" value="Send" class="btn btn-danger">
 </form>
-<p>Or email us directly: <iconify-icon role="img" inline="" icon="mdi:email-edit" aria-label="Icon email-edit from mdi Iconify.design set." title="Icon email-edit from mdi Iconify.design set." width="32"></iconify-icon> <a href="mailto:info@vibesurvey.com">info@vibesurvey.com</a></p>
 <hr>
-<p><strong><span class="vibe">VIBE</span></strong> is a product division of <a href="https://www.ergreports.com" class="external">eRg</a><br>
-Minneapolis, MN 55421<br>
-Phone: (651) 216-3353</p>
+<p><strong><span class="vibe">VIBE</span></strong> is a product division of <a href="https://www.ergreports.com" class="external"><img src="img/erg3.png" class="img-fluid"></a><br>
+Minneapolis, MN 55421</p>
 
 
 </section>
@@ -753,7 +765,7 @@ Phone: (651) 216-3353</p>
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Privacy Policy | Contact</p>
+<p><a href="./privacy.html">Privacy Policy</a> | <a href="./contact.html">Contact</a></p>
 </div>
   </div>
 </footer>

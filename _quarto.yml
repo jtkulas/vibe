@@ -3,15 +3,15 @@ project:
   output-dir: docs
 
 website:
-#  title: "VIBE"
   favicon: img/paintfav.png
   navbar:
+    title: false
     search: true      # enables site search
     logo: img/logowhite.png
     logo-alt: "VIBE survey logo (heart with ekg pulse symbol)"
     left:
-      - text: Home
-        href: index.qmd
+#      - text: Home                     ## duplicate with white-out-logo
+#        href: index.qmd
       - text: Why [VIBE]{.vibe}
         href: why.qmd
       - text: How It Works
@@ -20,13 +20,16 @@ website:
         href: pricing.qmd
       - text: Contact
         href: contact.qmd
+    right: 
+      - icon: twitter
+        href: https://x.com/jtkulas
   page-footer:
     left: "© 2025 VIBE Survey"
-    right: "Privacy Policy | Contact"
+    right: "[Privacy Policy](privacy.qmd) | [Contact](contact.qmd)"
   announcement: 
-    icon: exclamation-circle
+    icon: exclamation-triangle
     dismissable: true
-    content: "{{< iconify noto:american-football >}}{{< iconify noto:american-football >}} Kickoff Special!! {{< iconify noto:american-football flip=horizontal >}}{{< iconify noto:american-football flip=horizontal >}} Enter code: [Vibe2025](contact.qmd) for 10% discount prior to September 30"
+    content: "{{< iconify noto:american-football >}}{{< iconify noto:american-football >}} KICKOFF SPECIAL!! {{< iconify noto:american-football flip=horizontal >}}{{< iconify noto:american-football flip=horizontal >}} Enter referral code: [Vibe2025](contact.qmd) for 10% discount prior to September 30"
     type: primary
     position: below-navbar
   back-to-top-navigation: true      
@@ -36,3 +39,4 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
+    respect-user-color-scheme: true

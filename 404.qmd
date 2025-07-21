@@ -1,13 +1,30 @@
 ---
 title: ""
+format: 
+  html:
+    main-class: d-flex justify-content-center text-center
 ---
 
+::: {.d-flex .justify-content-center .text-center}
 # Page Not Found
+:::
 
-404 Such Missing!!
+::: {.d-flex .justify-content-center .text-center}
+# 404 Such Missing!!
+:::
 
+::: {.d-flex .justify-content-center .text-center}
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmtkb3h0bGd2Nmw5Z3V2YWxybm8xd2M4NGl2Zjl0NjM2dnN3dmpjNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mPytjcsG3XS4o/giphy.gif)
+:::
 
+::: {.d-flex .justify-content-center .text-center}
 The page you requested cannot be found (it is possible that it was moved or renamed).
+:::
 
-Please use the site search feature located in the navigation bar ({{< iconify mingcute:search-line >}} icon) to find the content you're looking for.
+::: {.d-flex .justify-content-center .text-center}
+Please use the site search feature located in the navigation bar (activated by engaging the {{< iconify mingcute:search-line >}} icon) to find the content you're looking for.
+:::
+
+::: {.d-flex .justify-content-center .text-center}
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXkyZHVwa3N5MDAzcXc2bWJiOWxwdnRrNzEyeWN3dThlam4wempjYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4560Nv2656Gv0Lvp9F/giphy.gif)
+:::

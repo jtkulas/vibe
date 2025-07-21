@@ -1,0 +1,63 @@
+---
+title: ""
+number-sections: true
+number-depth: 3
+#toc: true         ## hyperlinks in TOC coming in "green"
+---
+
+# Privacy Policy for [VIBE]{.vibe} Survey {.unnumbered}
+
+**Effective Date:** July 4, 2025
+
+[VIBE]{.vibe}, a product division of [eRg](https://ergreports.com/), is committed to protecting the privacy and confidentiality of individuals participating in our surveys. This Privacy Policy outlines how we collect, use, store, and protect your survey responses, as well as our commitment to transparency through open-source practices.
+
+# Purpose of the Survey {#sec-purpose}
+The survey is designed to gather feedback regarding employee attitudes, actions, and thoughts about work, including normative comparisons. Action taken in response to aggregated survey results is intended to improve organizational processes and enhance the employee experience. 
+
+# Confidentiality of Respondents
+
+- **Anonymity and Confidentiality**: All responses are treated with the highest level of confidentiality. No personally identifiable information (e.g., name, email, or other direct identifiers) are collected unless explicitly stated and consented to during the survey process.
+- **No Individual Identification**: Survey results are not reported in a way that could identify individual respondents. Data is only be presented in aggregate form, and we do not analyze or report data for groups smaller than five (5) individuals to prevent identification.
+- **Voluntary Participation**: Participation is entirely voluntary. Any respondent may choose not to respond to any or all questions without any consequences.
+
+# Data Collection and Use {#sec-use}
+- **Data Collected**: The survey collects responses to questions related to employee engagement. Demographic data, including department, division, workgroup, etc, is used solely to analyze trends in aggregate and is not linked to individual responses.
+- **Purpose of Data Use**: Individual responses are used to construct aggregate estimates of engagement. Data is not used for any purpose beyond what is stated without additional consent.
+- **Data Storage and Security**: Survey data is stored securely using databases accessible only to authorized personnel. Access to raw data is restricted to a limited team responsible for analysis, who are bound by ethical principles of their discipline (e.g., [APA Standards 4.01--4.07](https://www.apa.org/ethics/code)) as well as explicit confidentiality agreements.
+
+# Data Aggregation and Reporting
+- **Minimum Group Size**: To protect respondent anonymity, data will not be aggregated or reported for any group smaller than five (5) individuals. This minimizes the possibility that responses are filtered to the point of being reasonably attributed to specific individuals or small teams.
+- **Aggregate Reporting**: All reports, summaries, or publications derived from the survey presents data only in aggregate form (e.g., averages, percentages, grouped frequencies, or comparative percentiles) to maintain confidentiality.
+
+# Open-Source Orientation
+- **Transparency in Processes**: In alignment with our commitment to transparency and open education, the underlying code, survey design methodologies, and data processing workflows are available upon request. This DOES NOT include data (our procedure is open to all, the data is only accessible and available to designated personnel, as discussed in @sec-use).
+- **Community Collaboration**: We encourage community feedback and contributions to improve our survey tools and processes. Current collaboration resources are available at the [parent site](https://ergreports.com/references/) & suggestions or requests can be made [on that site](https://ergreports.com/our-team/).
+- **Data Exclusion**: Raw survey data and any potentially identifiable information will not be shared publicly or included in public open-source repositories to protect respondent privacy.
+
+# Data Retention and Deletion
+- **Retention Period**: Survey data will be retained only for as long as necessary to fulfill the stated purpose of the survey (see @sec-purpose), after which it will be securely deleted. Typically, raw data will be retained for 5 years unless otherwise required by law or organizational policy.
+- **Deletion Process**: Upon deletion, data will be removed using secure methods to ensure it cannot be recovered.
+
+# Third-Party Access
+- **No Third-Party Sharing**: Survey data will not be shared with third parties except as required by law or with your explicit consent.
+- **Service Providers**: If third--party tools or platforms are used to conduct the survey (e.g., survey software), they will be vetted to ensure compliance with this Privacy Policy and applicable data protection laws.
+
+# Your Rights
+- **Access and Correction**: If you provide identifiable information and wish to access, correct, or delete it, please contact us at [info@ergreports.com](mailto:info@ergreports.com). Note that most surveys are anonymous, so individual data is most likely not traceable.
+- **Questions or Concerns**: For questions about this Privacy Policy or how your data is handled, please contact [info@ergreports.com](mailto:info@ergreports.com).
+
+# Compliance with Laws
+This survey complies with applicable data protection laws. We are committed to upholding your privacy rights as required by law.
+
+# Changes to This Privacy Policy
+We may update this Privacy Policy to reflect changes in our practices or legal requirements. Any updates will be communicated to participants before they take effect, and the updated policy will be posted at ???.
+
+---
+
+**Contact Us**  
+If you have any questions or concerns about this Privacy Policy or the survey, please contact us at [info@ergrerports.com](mailto:info@ergreports.com) or [submit via web--portal](contact.qmd).
+
+---
+
+- If your survey operates in specific jurisdictions, ensure compliance with local data protection laws (e.g., GDPR for EU residents, CCPA for California residents) and mention them explicitly.
+- If you use specific survey platforms (e.g., Google Forms, Qualtrics), include their privacy policies or compliance details in Section 7.

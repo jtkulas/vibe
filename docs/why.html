@@ -221,7 +221,8 @@ ul.task-list li input[type="checkbox"] {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -234,6 +235,14 @@ ul.task-list li input[type="checkbox"] {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -258,10 +267,6 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="./why.html" aria-current="page"> 
 <span class="menu-text">Why <span class="vibe">VIBE</span></span></a>
   </li>  
@@ -278,14 +283,21 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/jtkulas"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="79c5aa480624e2d0d1f8453bba98a5d7" class="alert alert-primary hidden"><i class="bi bi-exclamation-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon> Kickoff Special!! <iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon> Enter code: <a href="./contact.html">Vibe2025</a> for 10% discount prior to September 30</p>
+  <div id="quarto-announcement" data-announcement-id="3b62dd90153dfd7808174d60607139fa" class="alert alert-primary hidden"><i class="bi bi-exclamation-triangle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set."></iconify-icon> KICKOFF SPECIAL!! <iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon><iconify-icon role="img" inline="" icon="noto:american-football" aria-label="Icon american-football from noto Iconify.design set." title="Icon american-football from noto Iconify.design set." flip="horizontal"></iconify-icon> Enter referral code: <a href="./contact.html">Vibe2025</a> for 10% discount prior to September 30</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -327,6 +339,7 @@ ul.task-list li input[type="checkbox"] {
 <li><iconify-icon role="img" inline="" icon="mdi:chart-bar" aria-label="Icon chart-bar from mdi Iconify.design set." title="Icon chart-bar from mdi Iconify.design set." width="28"></iconify-icon> <strong>Actionable Reports</strong></li>
 <li><iconify-icon role="img" inline="" icon="mdi:timer-sand-complete" aria-label="Icon timer-sand-complete from mdi Iconify.design set." title="Icon timer-sand-complete from mdi Iconify.design set." width="28"></iconify-icon> <strong>Rapid Setup</strong></li>
 <li><iconify-icon role="img" inline="" icon="mdi:account-tie" aria-label="Icon account-tie from mdi Iconify.design set." title="Icon account-tie from mdi Iconify.design set." width="28"></iconify-icon> <strong>Expert Support</strong></li>
+<li><strong>Tailored for mid–sized organizations</strong></li>
 </ul>
 <section id="why-choose-vibe" class="level1">
 <h1>Why Choose VIBE?</h1>
@@ -344,6 +357,7 @@ Our unique approach measures what truly matters: <strong>Vigor, Immersion, Belon
 </section>
 <section id="what-makes-vibe-different" class="level2">
 <h2 class="anchored" data-anchor-id="what-makes-vibe-different">What Makes VIBE Different?</h2>
+<p><strong>Transparent Pricing</strong> with tier options</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -359,6 +373,19 @@ Note
 <li>Intuitive dashboards and visual feedback</li>
 <li>Proven impact on retention and satisfaction</li>
 </ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><iconify-icon role="img" inline="" icon="mdi:star-multiple" aria-label="Icon star-multiple from mdi Iconify.design set." title="Icon star-multiple from mdi Iconify.design set." width="24"></iconify-icon> <strong>What Makes VIBE Different?</strong> - Proprietary metrics - Intuitive dashboards - Proven impact</p>
 </div>
 </div>
 <p>Ready for a healthier, more engaged workplace?<br>
@@ -808,7 +835,7 @@ Note
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Privacy Policy | Contact</p>
+<p><a href="./privacy.html">Privacy Policy</a> | <a href="./contact.html">Contact</a></p>
 </div>
   </div>
 </footer>

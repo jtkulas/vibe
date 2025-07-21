@@ -8,6 +8,7 @@ title: "Why VIBE"
 - {{< iconify mdi:chart-bar color=teal width=28 >}} **Actionable Reports**
 - {{< iconify mdi:timer-sand-complete color=orange width=28 >}} **Rapid Setup**
 - {{< iconify mdi:account-tie color=purple width=28 >}} **Expert Support**
+- **Tailored for mid--sized organizations**
 
 # Why Choose VIBE?
 
@@ -24,10 +25,20 @@ Our unique approach measures what truly matters: **Vigor, Immersion, Belongingne
 
 ## What Makes VIBE Different?
 
+**Transparent Pricing** with tier options
+
 ::: {.callout-note}
 - Proprietary metrics tailored to today's workforce
 - Intuitive dashboards and visual feedback
 - Proven impact on retention and satisfaction
+:::
+
+::: {.callout-note}
+{{< iconify mdi:star-multiple color=gold width=24 >}}
+**What Makes VIBE Different?**
+- Proprietary metrics
+- Intuitive dashboards
+- Proven impact
 :::
 
 Ready for a healthier, more engaged workplace?  
