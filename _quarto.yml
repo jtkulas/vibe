@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - .nojekyll       ## keeps instead of dele/overwrite upon build
 
 website:
   site-url: "https://jtkulas.github.io/vibe/"   ## trying to get custom 404 to show on GitHub pages
