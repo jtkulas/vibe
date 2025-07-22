@@ -24,7 +24,7 @@ website:
       - icon: twitter
         href: https://x.com/jtkulas
   page-footer:
-    left: "© 2025 VIBE Survey"
+    left: "© 2025 [VIBE]{.vibe} Survey"
     right: "[Privacy Policy](privacy.qmd) | [Contact](contact.qmd)"
   announcement: 
     icon: exclamation-triangle

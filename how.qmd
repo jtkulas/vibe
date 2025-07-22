@@ -9,8 +9,6 @@ title: "How It Works"
 | Get Reports      | {{< iconify mdi:file-chart color=gold width=32 >}}|
 | Take Action      | {{< iconify mdi:lightbulb-on color=blue width=32 >}}|
 
-![image1](image1)
-
 # How VIBE Works
 
 VIBE streamlines engagement measurement from start to finish.  
