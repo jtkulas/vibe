@@ -95,7 +95,7 @@
     "href": "contact.html",
     "title": "Get in Touch",
     "section": "",
-    "text": ".form-container {\n    display: flex;\n    flex-direction: column;\n    width: 100%;\n  }\n  .form-container input,\n  .form-container textarea {\n    width: 90%;\n    box-sizing: border-box;\n  }\nVIBE is a product division of \nMinneapolis, MN 55421"
+    "text": "VIBE is a product division of \nMinneapolis, MN 55421"
   },
   {
     "objectID": "contact.html#contact",

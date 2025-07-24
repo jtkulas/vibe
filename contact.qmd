@@ -2,7 +2,7 @@
 title: ""
 ---
 
-```{css}
+```{css, echo=FALSE}
   .form-container {
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@ title: ""
 ![](image1)
 
 ::: {.columns}
-::: {.column width="40%"}
+::: {.column width="50%"}
 
 # Get in Touch
 
@@ -52,7 +52,7 @@ Complete the form below or [reach out directly {{< iconify mdi:email-edit style=
 ** currently doesn't send just autopopulates content into email **
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
