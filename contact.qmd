@@ -2,6 +2,20 @@
 title: ""
 ---
 
+```{css}
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-container input,
+  .form-container textarea {
+    width: 90%;
+    box-sizing: border-box;
+  }
+```
+
+
 ![](image1)
 
 ::: {.columns}
@@ -16,21 +30,23 @@ Complete the form below or [reach out directly {{< iconify mdi:email-edit style=
 ## Contact Form {#contact}
 
 ```{=html}
-<form action="mailto:jtkulas@ergreports.com" method="POST" enctype="text/plain">
-  <label for="name">Your Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
-  <label for="org">Organization Name:</label><br>
-  <input type="text" id="org" name="organization" required><br><br>
-  <label for="siz">Org Size (approximate # of employees):</label><br>
-  <input type="text" id="siz" name="size" required><br><br>
-  <label for="email">Your Email:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message" rows="4" required></textarea><br><br>
-  <label for="code">Referral Name or Code:</label><br>
-  <input type="code" id="code" name="code" required></textarea><br><br>
-  <input type="submit" value="Send" class="btn btn-danger">
-</form>
+<div class="form-container">
+  <form action="/submit-form" method="POST" enctype="multipart/form-data">
+    <label for="name">Your Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="org">Organization Name:</label><br>
+    <input type="text" id="org" name="organization" required><br><br>
+    <label for="siz">Org Size (approximate # of employees):</label><br>
+    <input type="text" id="siz" name="size" required><br><br>
+    <label for="email">Your Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    <label for="code">Referral Name or Code:</label><br>
+    <input type="text" id="code" name="code" required><br><br>
+    <input type="submit" value="Send" class="btn btn-danger">
+  </form>
+</div>
 ```
 
 ** currently doesn't send just autopopulates content into email **
