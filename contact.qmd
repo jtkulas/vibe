@@ -4,6 +4,9 @@ title: ""
 
 ![](image1)
 
+::: {.columns}
+::: {.column width="40%"}
+
 # Get in Touch
 
 Ready to boost your organization’s [VIBE]{.vibe}?  
@@ -30,7 +33,33 @@ Complete the form below or [reach out directly {{< iconify mdi:email-edit style=
 </form>
 ```
 
-** doesn't send just autopopulates content into email **
+** currently doesn't send just autopopulates content into email **
+:::
+
+::: {.column width="60%"}
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(leaflet)
+library(dplyr)
+
+content <- paste(sep = "<br/>",
+  "<b><a href='https://ergweb.netlify.app/'>VIBE HQ</a></b>",
+  "Minneapolis, MN 55421"
+)
+
+hc_gdpr <- leaflet() %>%
+  setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=9) %>%
+  addTiles() %>%
+  addPopups(-93.24649681376336, 44.99948959471243, content,
+    options = popupOptions(closeButton = FALSE)
+  )
+
+htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
+hc_gdpr
+
+```
+:::
+:::
 
 ---
 
