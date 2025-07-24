@@ -30,6 +30,8 @@ Complete the form below or [reach out directly {{< iconify mdi:email-edit style=
 </form>
 ```
 
+** doesn't send just autopopulates content into email **
+
 ---
 
 **[VIBE]{.vibe}** is a product division of [![](img/erg3.png)](https://www.ergreports.com){.external}  
