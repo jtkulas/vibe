@@ -21,6 +21,8 @@ website:
         href: how.qmd
       - text: Pricing
         href: pricing.qmd
+      - text: Pricing (working dev)
+        href: altpricing.qmd
       - text: Contact
         href: contact.qmd
     right: 
