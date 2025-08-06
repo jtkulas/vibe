@@ -2,6 +2,8 @@
 title: ""
 ---
 
+![](img/call-back.webp)
+
 ```{css, echo=FALSE}
   .form-container {
     display: flex;
@@ -16,12 +18,8 @@ title: ""
 ```
 
 
-![](image1)
-
 ::: {.columns}
 ::: {.column width="50%"}
-
-# Get in Touch
 
 Ready to boost your organization’s [VIBE]{.vibe}?  
 

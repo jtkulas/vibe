@@ -49,13 +49,6 @@
     "text": "Add-Ons\n\nCustom questions\nOn-site workshops\nAdditional reporting\n\nContact us for a custom proposal.\nContact Sales"
   },
   {
-    "objectID": "how.html",
-    "href": "how.html",
-    "title": "How It Works",
-    "section": "",
-    "text": "Step\nIconify Code\n\n\n\n\nLaunch Survey\n\n\n\nCollect Data\n\n\n\nGet Reports\n\n\n\nTake Action"
-  },
-  {
     "objectID": "how.html#survey-launch",
     "href": "how.html#survey-launch",
     "title": "How It Works",
@@ -100,14 +93,14 @@
   {
     "objectID": "contact.html",
     "href": "contact.html",
-    "title": "Get in Touch",
+    "title": "",
     "section": "",
     "text": "VIBE is a product division of \nMinneapolis, MN 55421"
   },
   {
     "objectID": "contact.html#contact",
     "href": "contact.html#contact",
-    "title": "Get in Touch",
+    "title": "",
     "section": "Contact Form",
     "text": "Contact Form\n\n  \n    Your Name:\n    \n    Organization Name:\n    \n    Org Size (approximate # of employees):\n    \n    Your Email:\n    \n    Message:\n    \n    Referral Name or Code:\n    \n    \n  \n\n** currently doesn’t send just autopopulates content into email **"
   },

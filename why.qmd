@@ -2,7 +2,7 @@
 title: "Why VIBE"
 ---
 
-![](img/shutter1.JPG){alt="employees jumping with excitement"}
+![](img/happy.jpg){alt="employees jumping with excitement"}
 
 - {{< iconify mdi:shield-check color=blue width=28 >}} **Confidential**
 - {{< iconify mdi:chart-bar color=teal width=28 >}} **Actionable Reports**

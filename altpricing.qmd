@@ -4,11 +4,135 @@ format: html
 engine: knitr
 ---
 
+![](img/commerce.jpg)
+
 # ![](img/logo.png){.absolute height="50"} Pricing Tables 
 
 >NOTE. Working on format -- content to be updated later
 
 ```{css, echo=FALSE}
+/* Base styling for wrapper and pricing items */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.pricing-content-items-tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.pricing-item {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  flex: 1 1 220px;
+  min-width: 220px;
+  max-width: 300px;
+  margin: 12px 0;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-item-box {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.plan-name {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.plan-text {
+  font-size: 1em;
+  margin-bottom: 16px;
+}
+.plan-price-content {
+  margin-bottom: 16px;
+}
+.plan-price {
+  font-size: 2em;
+  font-weight: bold;
+}
+.plan-features {
+  margin-bottom: 16px;
+}
+.plan-feature-item {
+  font-size: 0.95em;
+  margin-bottom: 6px;
+}
+.plan-button a {
+  display: inline-block;
+  background: #007bff;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+.plan-button-blue {
+  background: #0056b3;
+}
+
+.ribbon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 80px;
+  height: 24px;
+  background: #ff9800;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px 0 4px 0;
+}
+
+@media (max-width: 900px) {
+  .pricing-content-items-tabs {
+    gap: 16px;
+  }
+  .pricing-item {
+    min-width: 180px;
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pricing-content-items-tabs {
+    flex-direction: column;
+    gap: 12px;
+    align-items: stretch;
+  }
+  .pricing-item {
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+  .pricing-item-box {
+    padding: 12px;
+  }
+  .plan-price {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 400px) {
+  .wrapper {
+    padding: 4px;
+  }
+  .plan-name {
+    font-size: 1em;
+  }
+  .plan-price {
+    font-size: 1.2em;
+  }
+}
+```
+
+```{css, echo=FALSE, eval=FALSE}
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css?family=Muli:400,700');
 *{
@@ -143,7 +267,7 @@ body {
 }
 
 .pricing-title {
-    background: #22B122;
+    background: #ff0000;
     text-align: center;
     color: #fff;
     padding: 6px;
@@ -207,7 +331,7 @@ body {
     position: absolute;
     height: 0px;
     bottom: -8px;
-    border: 13px solid #22B122;
+    border: 13px solid #ff0000;
 }
 .ribbon {
     position: absolute;
@@ -322,16 +446,16 @@ Pricing Working Styles
 
 .p-card-btn a {
     display: flex;
-    border: 1px solid #3069d4;
+    border: 1px solid #ff0000;
     padding: 10px 20px;
     border-radius: 3px;
     text-decoration: none;
-    color: #3069d4;
+    color: #ff0000;
     transition: all .3s;
 }
 
 .p-card-btn a:hover {
-    background: #3069d4;
+    background: #ff0050;
     color: #fff;
 }
 

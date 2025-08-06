@@ -2,6 +2,8 @@
 title: "How It Works"
 ---
 
+![](img/factory2.webp)
+
 | Step             | Iconify Code                                      |
 |------------------|---------------------------------------------------|
 | Launch Survey    | {{< iconify mdi:email-send color=red width=32 >}} |
