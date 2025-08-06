@@ -23,7 +23,7 @@ website:
         href: pricing.qmd
       - text: Pricing (working dev)
         href: altpricing.qmd
-      - text: Contact
+      - text: Get Started
         href: contact.qmd
     right: 
       - icon: twitter

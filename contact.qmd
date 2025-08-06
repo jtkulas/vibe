@@ -2,7 +2,10 @@
 title: ""
 ---
 
-![](img/call-back.webp)
+<div style="background:linear-gradient(90deg,#ff3d3d,#ffc300);padding:1em;text-align:center;color:white;font-size:1.2em;">
+{{< iconify mdi:pulse color=white width=32 >}}  
+**Ready to energize your organization?**
+</div> 
 
 ```{css, echo=FALSE}
   .form-container {
@@ -19,9 +22,9 @@ title: ""
 
 
 ::: {.columns}
-::: {.column width="50%"}
+::: {.column width="65%"}
 
-Ready to boost your organization’s [VIBE]{.vibe}?  
+![](img/call-back.webp)
 
 Complete the form below or [reach out directly {{< iconify mdi:email-edit style="color:red" width=32 >}}](mailto:jtkulas@ergreports.com)
 
@@ -50,7 +53,7 @@ Complete the form below or [reach out directly {{< iconify mdi:email-edit style=
 ** currently doesn't send just autopopulates content into email **
 :::
 
-::: {.column width="50%"}
+::: {.column width="35%"}
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(leaflet)
@@ -65,8 +68,8 @@ hc_gdpr <- leaflet() %>%
   setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=9) %>%
   addTiles() %>%
   addPopups(-93.24649681376336, 44.99948959471243, content,
-    options = popupOptions(closeButton = FALSE)
-  )
+    options = popupOptions(closeButton = FALSE)) %>%
+  addProviderTiles("Stadia.StamenToner")
 
 htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
 hc_gdpr

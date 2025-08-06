@@ -4,11 +4,6 @@ title: ""
 
 ![](img/logo.png){.shake}
 
-<div style="background:linear-gradient(90deg,#ff3d3d,#ffc300);padding:1em;text-align:center;color:white;font-size:1.2em;">
-{{< iconify mdi:pulse color=white width=32 >}}  
-**Ready to energize your organization?**
-</div>
-
 # [VIBE]{.vibe}: Employee Engagement, Measured
 
 Discover how VIBE transforms workforce energy into results.  

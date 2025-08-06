@@ -2,7 +2,7 @@
 title: "How It Works"
 ---
 
-![](img/factory2.webp)
+![](img/factory.webp)
 
 | Step             | Iconify Code                                      |
 |------------------|---------------------------------------------------|
