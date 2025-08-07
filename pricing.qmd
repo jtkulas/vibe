@@ -13,6 +13,7 @@ engine: knitr
     margin-bottom: 1.5em;
   }
 }
+
 ```
 
 # ![](img/logo.png){.absolute height="50"} Transparent Pricing Tables
@@ -37,14 +38,12 @@ No hidden fees—-just pre--packaged deliverables with actionable insights:
 
 $6,000
 
-✔️ Unlimited Contacts  
-✔️ 500 texts per month  
-✔️ $0.03 per Additional Text  
-✔️ 2 phone numbers  
-✔️ 3 Keywords  
-✔️ 5 User Seats  
-✔️ 1-on-1 Messaging  
-✔️ Short links  
+✔️ Dashboard access (25)  
+✔️ Filtered actionable recommendations
+✔️ Company--wide report (full)  
+✔️ Company--wide report (abridged)  
+✔️ Benchmark comparisons
+✔️ 1 year support 
 
 [[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
 
@@ -56,14 +55,12 @@ $6,000
 
 $7,500
 
-✔️ Unlimited Contacts  
-✔️ 1000 texts per month  
-✔️ $0.03 per Additional Text  
-✔️ 3 phone numbers  
-✔️ Unlimited Keywords  
-✔️ 5 User Seats  
-✔️ 1-on-1 Messaging  
-✔️ Short links  
+✔️ Dashboard access (50)    
+✔️ Filtered actionable recommendations
+✔️ Company--wide report (full)  
+✔️ Company--wide report (abridged)  
+✔️ Benchmark comparisons
+✔️ 1 year support  
 
 [[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
 
@@ -75,17 +72,12 @@ $7,500
 
 $9,000
 
-✔️ Unlimited Contacts  
-✔️ 5000 texts per month  
-✔️ Unlimited Emails  
-✔️ $0.03 per Additional Text  
-✔️ Unlimited phone numbers  
-✔️ Unlimited Keywords  
-✔️ Unlimited User Seats  
-✔️ 1-on-1 Messaging  
-✔️ Email campaigns  
-✔️ Short links  
-✔️ Voice campaigns  
+✔️ Dashboard access (80)  
+✔️ Filtered actionable recommendations
+✔️ Company--wide report (full)  
+✔️ Company--wide report (abridged)  
+✔️ Benchmark comparisons
+✔️ 1 year support  
 
 [[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
 
