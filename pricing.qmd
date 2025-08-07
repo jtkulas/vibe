@@ -1,17 +1,112 @@
 ---
-title: "Pricing"
+title: ""
+engine: knitr
 ---
+
+```{css, echo=FALSE}
+@media (max-width: 768px) {
+  .pricing-columns {
+    flex-direction: column !important;
+  }
+  .pricing-columns > .column {
+    width: 100% !important;
+    margin-bottom: 1.5em;
+  }
+}
+```
+
+# ![](img/logo.png){.absolute height="50"} Transparent Pricing Tables
+
+[VIBE]{.vibe} offers simplified out--of--the--box plans designed for organizations with 300–1,000 employees.  
+
+## What's Included (TLDR Version)
+
+- Survey setup and deployment
+- Confidential data handling
+- Company--wide summary reports
+- Decision--maker dashboard
+- Actionable recommendations
+
+No hidden fees—-just pre--packaged deliverables with actionable insights:
+
+:::{.columns .pricing-columns}
+
+::: {.column width="33%"}
+
+## 300--500 Employees
+
+$6,000
+
+✔️ Unlimited Contacts  
+✔️ 500 texts per month  
+✔️ $0.03 per Additional Text  
+✔️ 2 phone numbers  
+✔️ 3 Keywords  
+✔️ 5 User Seats  
+✔️ 1-on-1 Messaging  
+✔️ Short links  
+
+[[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
+
+:::
+
+::: {.column width="33%"}
+
+## 500--750 Employees
+
+$7,500
+
+✔️ Unlimited Contacts  
+✔️ 1000 texts per month  
+✔️ $0.03 per Additional Text  
+✔️ 3 phone numbers  
+✔️ Unlimited Keywords  
+✔️ 5 User Seats  
+✔️ 1-on-1 Messaging  
+✔️ Short links  
+
+[[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
+
+:::
+
+::: {.column width="33%"}
+
+## 750--1000 Employees
+
+$9,000
+
+✔️ Unlimited Contacts  
+✔️ 5000 texts per month  
+✔️ Unlimited Emails  
+✔️ $0.03 per Additional Text  
+✔️ Unlimited phone numbers  
+✔️ Unlimited Keywords  
+✔️ Unlimited User Seats  
+✔️ 1-on-1 Messaging  
+✔️ Email campaigns  
+✔️ Short links  
+✔️ Voice campaigns  
+
+[[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
+
+:::
+
+:::
+
+## Add-Ons
+
+- Custom questions
+- On-site workshops
+- Additional reporting
 
 {{< iconify mdi:currency-usd color=green width=36 >}}  
 Transparent, simple packages?
 
 
-![image1](image1)
 
 # Simple, Transparent Pricing
 
-VIBE offers flexible plans designed for organizations with 300–700 employees.  
-No hidden fees—just actionable insights.
+
 
 ## Packages
 
@@ -22,18 +117,8 @@ No hidden fees—just actionable insights.
 
 *Volume discounts available for multi-year agreements.*
 
-## What's Included
 
-- Survey setup and deployment
-- Confidential data handling
-- Executive summary report
-- Actionable recommendations
-
-## Add-Ons
-
-- Custom questions
-- On-site workshops
-- Additional reporting
+We also accept [{{< iconify logos:bitcoin >}}](https://bitcoin.org/en/) at current market USD equivalence  
 
 Contact us for a custom proposal.  
 [Contact Sales](contact.qmd){.btn .btn-danger}

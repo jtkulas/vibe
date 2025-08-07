@@ -8,6 +8,7 @@ website:
   site-url: "https://jtkulas.github.io/vibe/"   ## trying to get custom 404 to show on GitHub pages
   favicon: img/paintfav.png
   navbar:
+    pinned: true
     title: false
     search: true      # enables site search
     logo: img/logowhite.png

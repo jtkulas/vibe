@@ -24,7 +24,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -319,350 +318,111 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="img/commerce.jpg" class="img-fluid"></p>
 <section id="pricing-tables" class="level1">
 <h1><img src="img/logo.png" class="absolute" height="50"> Pricing Tables</h1>
-<blockquote class="blockquote">
-<p>NOTE. Working on format – content to be updated later</p>
-</blockquote>
 <div class="cell">
 <style type="text/css">
-/* Base styling for wrapper and pricing items */
-.wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+/* Box around the whole pricing table */
+.pricing-box {
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 1.5em;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin-bottom: 2em;
 }
-.pricing-content-items-tabs {
+
+/* Flex container for columns */
+.pricing-columns {
   display: flex;
-  flex-direction: row;
-  gap: 24px;
-  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 1em;
 }
-.pricing-item {
-  background: #fff;
+
+/* Each pricing column */
+.pricing-column {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
-  flex: 1 1 220px;
-  min-width: 220px;
-  max-width: 300px;
-  margin: 12px 0;
-  display: flex;
-  flex-direction: column;
-}
-.pricing-item-box {
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  background: #fff;
+  padding: 1.5em 1em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  border: 1px solid #e0e0e0;
 }
 
-.plan-name {
-  font-size: 1.25em;
-  font-weight: bold;
-  margin-bottom: 12px;
-}
-.plan-text {
-  font-size: 1em;
-  margin-bottom: 16px;
-}
-.plan-price-content {
-  margin-bottom: 16px;
-}
-.plan-price {
-  font-size: 2em;
-  font-weight: bold;
-}
-.plan-features {
-  margin-bottom: 16px;
-}
-.plan-feature-item {
-  font-size: 0.95em;
-  margin-bottom: 6px;
-}
-.plan-button a {
-  display: inline-block;
-  background: #007bff;
-  color: #fff;
-  padding: 10px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  text-align: center;
-}
-.plan-button-blue {
-  background: #0056b3;
-}
-
-.ribbon {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 80px;
-  height: 24px;
-  background: #ff9800;
-  color: #fff;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 4px 0 4px 0;
-}
-
-@media (max-width: 900px) {
-  .pricing-content-items-tabs {
-    gap: 16px;
+/* Responsive: stack columns vertically on small screens */
+@media (max-width: 768px) {
+  .pricing-columns {
+    flex-direction: column !important;
   }
-  .pricing-item {
-    min-width: 180px;
-    max-width: 250px;
-  }
-}
-
-@media (max-width: 600px) {
-  .pricing-content-items-tabs {
-    flex-direction: column;
-    gap: 12px;
-    align-items: stretch;
-  }
-  .pricing-item {
-    min-width: 100%;
-    max-width: 100%;
-    margin: 0;
-  }
-  .pricing-item-box {
-    padding: 12px;
-  }
-  .plan-price {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 400px) {
-  .wrapper {
-    padding: 4px;
-  }
-  .plan-name {
-    font-size: 1em;
-  }
-  .plan-price {
-    font-size: 1.2em;
+  .pricing-column {
+    width: 100% !important;
+    margin-bottom: 1.5em;
   }
 }
 </style>
 </div>
-
-
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing Table</title>
-    <link rel="stylesheet" type="text/css" href="PricingStyles.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-
-    <div class="wrapper">
-        <div class="pricing-content">
-            <div class="PageWidth">
-                <div class="pricing-detail-content">
-            
-                <div class="pricing-content-items-tabs">
-                    <div class="pricing-yearly">
-                    <div class="pricing-item">
-                        <div class="pricing-item-box">
-                        <div class="plan-name">Free</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Startup agencies who want to automate their reporting</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">$0<span class="month-text">/month</span></div>
-                            
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">5 Clients</div>
-                            
-                        </div>
-
-                        <div class="plan-button"><a href="">Buy Now</a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-item">
-                        <div class="pricing-item-box">
-                        <div class="plan-name">Starter</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Startup agencies who want to automate their reporting</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">$240<span class="month-text">/month</span></div>
-                                                </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">15 Clients</div>
-                            <div class="plan-feature-item">Unlimited Reports</div>
-                            <div class="plan-feature-item">Unlimited Live Dashboards</div>
-                        </div>
-
-                        <div class="plan-button"><a href="">Buy Starter</a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-item">
-                        
-                        <div class="pricing-item-box">
-                            <span class="ribbon"></span>
-                        <div class="plan-name">Professional</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Agencies who want a brandable marketing platform</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">$500<span class="month-text">/month</span></div>
-                            
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">30 Clients</div>
-                            <div class="plan-feature-item">Unlimited Reports</div>
-                            <div class="plan-feature-item">Unlimited Live Dashboards</div>
-                        </div>
-                        <div class="plan-button"><a href="" class="plan-button-blue ">Buy Professional</a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-item">
-                        <div class="pricing-item-box">
-                        <div class="plan-name">Enterprise</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Large agencies who want to scale their processes</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">Contact us</div>
-                        
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">Everything in Team plan &amp;</div>
-                            <div class="plan-feature-item">Marketing Operations - Workflow Management</div>
-                            <div class="plan-feature-item">Marketing Analytics</div>
-                            <div class="plan-feature-item">Custom Connectors</div>
-                            <div class="plan-feature-item">Data </div>
-                            <div class="plan-feature-item">HIPAA compliance</div>
-                            <div class="plan-feature-item">Franchise Solutions</div>
-                            <div class="plan-feature-item">Storage</div>
-                            <div class="plan-feature-item">150+ Data Sources</div>
-                        </div>
-                        <div class="plan-button"><a href="">Contact Us</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                    <div class="pricing-monthly">
-                    <div class="pricing-item">
-                        <div class="pricing-item-box">
-                        <div class="plan-name">Free</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Startup agencies who want to automate their reporting</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">$0<span class="month-text">/month</span></div>
-                            
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">5 Clients</div>
-                            
-                        </div>
-
-                        <div class="plan-button"><a href="">Buy Now</a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-item">
-                        <div class="pricing-item-box">
-                        <div class="plan-name">Starter</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Startup agencies who want to automate their reporting</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">$300<span class="month-text">/month</span></div>
-                        
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">15 Clients</div>
-                            <div class="plan-feature-item">Unlimited Reports</div>
-                            <div class="plan-feature-item">Unlimited Live Dashboards</div>
-                        </div>
-
-                        <div class="plan-button"><a href="">Buy Starter</a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-item">
-                        
-                        <div class="pricing-item-box">
-                            <span class="ribbon"></span>
-                        <div class="plan-name">Professional</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Agencies who want a brandable marketing platform</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">$625<span class="month-text">/month</span></div>
-                        
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">30 Clients</div>
-                            <div class="plan-feature-item">Unlimited Reports</div>
-                            <div class="plan-feature-item">Unlimited Live Dashboards</div>
-                        </div>
-                        <div class="plan-button"><a href="" class="plan-button-blue ">Buy Professional</a></div>
-                        </div>
-                    </div>
-                    <div class="pricing-item">
-                        <div class="pricing-item-box">
-                        <div class="plan-name">Enterprise</div>
-                        <div class="plan-text"><span class="text-bold">Best for</span> Large agencies who want to scale their processes</div>
-
-                        <div class="plan-price-content">
-                            <div class="plan-price">Contact us</div>
-                    
-                        </div>
-
-                        <div class="plan-features">
-                            <div class="plan-feature-item">Everything in Team plan &amp;</div>
-                            <div class="plan-feature-item">Marketing Operations - Workflow Management</div>
-                            <div class="plan-feature-item">Marketing Analytics</div>
-                            <div class="plan-feature-item">Custom Connectors</div>
-                            <div class="plan-feature-item">Data </div>
-                            <div class="plan-feature-item">HIPAA compliance</div>
-                            <div class="plan-feature-item">Franchise Solutions</div>
-                            <div class="plan-feature-item">Storage</div>
-                            <div class="plan-feature-item">150+ Data Sources</div>
-                        </div>
-                        <div class="plan-button"><a href="">Contact Us</a></div>
-                        </div>
-                    </div>
-                </div>
-            
-            </div>
-            </div>
-    
-
-    
-        </div>
-        </div>
-        
+<div class="pricing-box">
+  <div class="pricing-columns">
+    <div class="pricing-column">
+      <h2 class="anchored" data-anchor-id="pricing-tables">Essentials</h2>
+      <em>Advanced marketing and customer service</em>
+      <p><strong>Starting at</strong></p>
+      <h1>$25</h1>
+      <em>Per month</em>
+      <ul>
+        <li>✔️ Unlimited Contacts</li>
+        <li>✔️ 500 texts per month</li>
+        <li>✔️ $0.03 per Additional Text</li>
+        <li>✔️ 2 phone numbers</li>
+        <li>✔️ 3 Keywords</li>
+        <li>✔️ 5 User Seats</li>
+        <li>✔️ 1-on-1 Messaging</li>
+        <li>✔️ Short links</li>
+      </ul>
+      <a class="btn btn-outline-primary" href="#">Buy Now</a>
     </div>
-<script type="text/javascript">
-    $(document).ready(function(){
-  $("#tab1").click(function(){
-  
-   $('.pricing-monthly').addClass('active-tab-content');
-   $('.pricing-yearly').hide();
-   $(this).addClass('tab-active');
-     $('#tab2').removeClass('tab-active');
- 
-  });
- $("#tab2").click(function(){
-  
-   $('.pricing-monthly').removeClass('active-tab-content');
-   $('.pricing-yearly').show();
-  $(this).addClass('tab-active');
-     $('#tab1').removeClass('tab-active');
-  });
-
-
-  });
-
-
-</script>
-
-
-
+    <div class="pricing-column">
+      <h2 class="anchored">Professional</h2>
+      <em>Companies with multiple facilities</em>
+      <p><strong>Starting at</strong></p>
+      <h1>$40</h1>
+      <em>Per month</em>
+      <ul>
+        <li>✔️ Unlimited Contacts</li>
+        <li>✔️ 1000 texts per month</li>
+        <li>✔️ $0.03 per Additional Text</li>
+        <li>✔️ 3 phone numbers</li>
+        <li>✔️ Unlimited Keywords</li>
+        <li>✔️ 5 User Seats</li>
+        <li>✔️ 1-on-1 Messaging</li>
+        <li>✔️ Short links</li>
+      </ul>
+      <a class="btn btn-outline-primary" href="#">Buy Now</a>
+    </div>
+    <div class="pricing-column">
+      <h2 class="anchored">Enterprise</h2>
+      <em>Customized for you and built to scale</em>
+      <p><strong>Starting at</strong></p>
+      <h1>$150</h1>
+      <em>Per month</em>
+      <ul>
+        <li>✔️ Unlimited Contacts</li>
+        <li>✔️ 5000 texts per month</li>
+        <li>✔️ Unlimited Emails</li>
+        <li>✔️ $0.03 per Additional Text</li>
+        <li>✔️ Unlimited phone numbers</li>
+        <li>✔️ Unlimited Keywords</li>
+        <li>✔️ Unlimited User Seats</li>
+        <li>✔️ 1-on-1 Messaging</li>
+        <li>✔️ Email campaigns</li>
+        <li>✔️ Short links</li>
+        <li>✔️ Voice campaigns</li>
+      </ul>
+      <a class="btn btn-outline-primary" href="./contact.html">Buy Now</a>
+    </div>
+  </div>
+</div>
 
 
 </section>
