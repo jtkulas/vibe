@@ -6,7 +6,7 @@ title: ""
 
 # [VIBE]{.vibe}: Employee Engagement, Measured
 
-Discover how VIBE transforms workforce energy into results.  
+Discover how [VIBE]{.vibe} transforms workforce energy into results.  
 
 [V]{.vibe .underline}[igor]{.vibe} $+$ [I]{.vibe .underline}[mmersion]{.vibe} $+$ [B]{.vibe .underline}[elongingness]{.vibe} $=$ [E]{.vibe .underline}[ngagement]{.vibe}
 

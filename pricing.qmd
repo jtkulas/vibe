@@ -3,20 +3,7 @@ title: ""
 engine: knitr
 ---
 
-```{css, echo=FALSE}
-@media (max-width: 768px) {
-  .pricing-columns {
-    flex-direction: column !important;
-  }
-  .pricing-columns > .column {
-    width: 100% !important;
-    margin-bottom: 1.5em;
-  }
-}
-
-```
-
-# ![](img/logo.png){.absolute height="50"} Transparent Pricing Tables
+# ![](img/logo.png){.absolute height="50"} Pricing Tables
 
 [VIBE]{.vibe} offers simplified out--of--the--box plans designed for organizations with 300–1,000 employees.  
 
@@ -39,10 +26,10 @@ No hidden fees—-just pre--packaged deliverables with actionable insights:
 $6,000
 
 ✔️ Dashboard access (25)  
-✔️ Filtered actionable recommendations
+✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
-✔️ Benchmark comparisons
+✔️ Benchmark comparisons  
 ✔️ 1 year support 
 
 [[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
@@ -55,11 +42,11 @@ $6,000
 
 $7,500
 
-✔️ Dashboard access (50)    
-✔️ Filtered actionable recommendations
+✔️ Dashboard access (40)    
+✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
-✔️ Benchmark comparisons
+✔️ Benchmark comparisons  
 ✔️ 1 year support  
 
 [[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
@@ -72,11 +59,11 @@ $7,500
 
 $9,000
 
-✔️ Dashboard access (80)  
-✔️ Filtered actionable recommendations
+✔️ Dashboard access (55)  
+✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
-✔️ Benchmark comparisons
+✔️ Benchmark comparisons  
 ✔️ 1 year support  
 
 [[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
@@ -84,6 +71,8 @@ $9,000
 :::
 
 :::
+
+Dashboard access is intended for 2^nd^--level manager and above 
 
 ## Add-Ons
 
@@ -114,3 +103,4 @@ We also accept [{{< iconify logos:bitcoin >}}](https://bitcoin.org/en/) at curre
 
 Contact us for a custom proposal.  
 [Contact Sales](contact.qmd){.btn .btn-danger}
+

@@ -10,6 +10,16 @@
   100% { transform: rotate(0deg); } 
 }
 
+@media (max-width: 768px) {
+  .pricing-columns {
+    flex-direction: column !important;
+  }
+  .pricing-columns > .column {
+    width: 100% !important;
+    margin-bottom: 1.5em;
+  }
+}
+
 a {
   color: #708090; /* Default link color */
   text-decoration: underline; /* Optional: removes underline */
@@ -64,3 +74,7 @@ body {
 .underline {
   text-decoration: underline;
 }
+
+
+
+
