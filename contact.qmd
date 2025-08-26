@@ -24,9 +24,7 @@ title: ""
 ::: {.columns}
 ::: {.column width="65%"}
 
-![](img/consult.png)
-
-Complete the form below or [reach out directly {{< iconify mdi:email-edit style="color:red" width=32 >}}](mailto:jtkulas@ergreports.com)
+Complete the form below for a free consultation or [reach out directly {{< iconify mdi:email-edit style="color:red" width=32 >}}](mailto:jtkulas@ergreports.com)
 
 ## Contact Form {#contact}
 

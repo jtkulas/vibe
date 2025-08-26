@@ -31,11 +31,12 @@ website:
         href: https://x.com/jtkulas
   page-footer:
     left: "© 2025 [VIBE]{.vibe} Survey"
+    center: "[Vigor | Intensity | Belongingness | ENGAGEMENT]{.vibe}"
     right: "[Privacy Policy](privacy.qmd) | [Contact](contact.qmd)"
   announcement: 
     icon: exclamation-triangle
     dismissable: true
-    content: "{{< iconify noto:american-football >}}{{< iconify noto:american-football >}} KICKOFF SPECIAL!! {{< iconify noto:american-football flip=horizontal >}}{{< iconify noto:american-football flip=horizontal >}} Enter referral code: [Vibe2025](contact.qmd) for 10% discount prior to September 30"
+    content: "{{< iconify noto:american-football >}}{{< iconify noto:american-football >}} KICKOFF SPECIAL!! {{< iconify noto:american-football flip=horizontal >}}{{< iconify noto:american-football flip=horizontal >}} Enter referral code: [Vibe2025](contact.qmd) for 10% discount prior to December 30"
     type: primary
     position: below-navbar
   back-to-top-navigation: true      

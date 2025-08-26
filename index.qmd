@@ -6,9 +6,17 @@ title: ""
 
 # [VIBE]{.vibe}: Employee Engagement, Measured
 
-Discover how [VIBE]{.vibe} transforms workforce energy into results.  
-
+::: {style="text-align: center;"}
 [V]{.vibe .underline}[igor]{.vibe} $+$ [I]{.vibe .underline}[mmersion]{.vibe} $+$ [B]{.vibe .underline}[elongingness]{.vibe} $=$ [E]{.vibe .underline}[ngagement]{.vibe}
+:::
+
+Discover how [VIBE]{.vibe} transforms workforce energy into results.
+
+::: {style="overflow: auto;"}
+![](img/logo.png){style="float: right; margin-left: 1em; width: 20%;"}
+
+This is a paragraph of text that wraps around the image. The `overflow: auto;` on the div ensures the container clears the float properly, preventing layout issues.
+:::
 
 # STYLE IDEAS for a Corporate Sales Website
 1. Color Palette
@@ -41,7 +49,6 @@ Legal info, privacy policy, social links, contact.
 - Intuitive dashboards
 - Proven impact
 :::
-
 
 {{< iconify mdi:chart-areaspline color=red width=36 >}}  
 **Drive Engagement. Inspire Performance.**
