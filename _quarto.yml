@@ -47,3 +47,4 @@ format:
       dark: darkly
     css: styles.css
     respect-user-color-scheme: true
+#    embed-resources: true            ## iframe w actual survey

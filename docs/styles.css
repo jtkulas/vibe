@@ -21,15 +21,15 @@
 }
 
 a {
-  color: #708090; /* Default link color */
+  color: #ff0000; /* Default link color */
   text-decoration: underline; /* Optional: removes underline */
 }
 a:hover {
-  color: #778899; /* Color on hover */
+  color: #CC0000; /* Color on hover */
   text-decoration: none; /* Optional: underline on hover */
 }
 a:visited {
-  color: #696969; /* Color for visited links */
+  color: #FF3333; /* Color for visited links */
 }
 
 body {
