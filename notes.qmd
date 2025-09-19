@@ -1,0 +1,28 @@
+---
+title: "Notes"
+---
+
+# STYLE IDEAS for a Corporate Sales Website 
+
+1. Color Palette
+
+Use a clean, professional palette: Black, white, gray, and accent with VIBE’s red. Red can highlight calls-to-action (buttons, contact info, etc.) and reinforce branding. Avoid academic blues or muted tones—go for confident, energetic contrasts. 
+
+2. Typography
+Use modern, sans-serif fonts for headings (e.g., Montserrat, Roboto, Open Sans).
+Use a readable body font (e.g., Lato, Arial).
+Headings should be bold and clear.
+3. Layout
+Hero section: Prominent logo, punchy headline, visible CTA (e.g., "Request a Demo").
+Short, value-focused sections: What is VIBE? What makes it different? Benefits for organizations.
+Include testimonials, client logos, or “trusted by” section.
+Simple navigation: Home, Why VIBE, How It Works, Pricing, Contact.
+4. Imagery
+Use your logo in the header.
+Add workplace imagery (stock photos of teams, collaboration, happy employees).
+Use icons for features (Vigor, Immersion, Belongingness, Engagement).
+5. Calls to Action
+Buttons: "Request Demo," "Contact Sales," "Download Sample Report"
+Emphasize conversion paths.
+6. Footer
+Legal info, privacy policy, social links, contact.

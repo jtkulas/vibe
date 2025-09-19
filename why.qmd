@@ -1,19 +1,66 @@
 ---
-title: "Why VIBE"
+title: " "
 ---
+<div style="display: flex; justify-content: center;">
+![](img/happy.jpg){alt="employees jumping with excitement" height="250"}
+</div>
 
-![](img/happy.jpg){alt="employees jumping with excitement"}
+# Why Choose [VIBE]{.vibe}?
 
-- {{< iconify mdi:shield-check color=blue width=28 >}} **Confidential**
-- {{< iconify mdi:chart-bar color=teal width=28 >}} **Actionable Reports**
-- {{< iconify mdi:timer-sand-complete color=orange width=28 >}} **Rapid Setup**
-- {{< iconify mdi:account-tie color=purple width=28 >}} **Expert Support**
-- **Tailored for mid--sized organizations**
+::: {.columns}
 
-# Why Choose VIBE?
+::: {.column width="33%"}
 
-VIBE is more than just an employee survey—it's a catalyst for organizational growth.  
-Our unique approach measures what truly matters: **Vigor, Immersion, Belongingness, and Engagement**.
+{{< iconify mdi:chart-bar width=28 >}} **Actionable Reports**<br>
+{{< iconify mdi:shield-check width=28 >}} **Confidential**
+
+:::
+
+::: {.column width="34%"}
+
+{{< iconify mdi:account-tie width=28 >}} **Expert Support**<br>
+{{< iconify mdi:timer-sand-complete width=28 >}} **Rapid Delivery**
+
+:::
+
+::: {.column width="33%"}
+
+{{< iconify mdi:cash-check width=28 >}} **Cost Efficient**<br>
+{{< iconify fa:line-chart width=28 >}} **Organization Growth**
+
+:::
+
+:::
+
+::: {style="overflow: auto;"}
+
+![](img/logo.png){style="float: left; margin-right: 1em; width: 20%;"}
+
+[VIBE]{.vibe} is more than just an employee survey—it's a catalyst for organizational growth. Our unique approach measures actionable ***mechanisms*** in addition to crucial engagement ***components***: 
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+## Mechanism:
+
++ What employees are [thinking]{.vibe .red} {{< iconify mdi:think-outline >}}
++ What employees are [feeling]{.vibe .red} {{< iconify mdi:mother-heart >}}
++ What employees are [doing]{.vibe .red} {{< iconify mdi:interaction-double-tap >}}
+
+:::
+
+::: {.column width="50%"}
+
+## Component:
+
++ [Vigor]{.vibe .red}: Energy & Resilience {{< iconify mdi:battery-charging-medium >}}
++ [Immersion]{.vibe .red}: Focus & Interest {{< iconify mdi:target-arrow >}}
++ [Belonging]{.vibe .red}: Attachment & Pride {{< iconify mdi:account-heart-outline >}}
+
+:::
+
+:::
 
 ## Distinct Advantages
 
@@ -44,40 +91,14 @@ Our unique approach measures what truly matters: **Vigor, Immersion, Belongingne
 Ready for a healthier, more engaged workplace?  
 [Request a Demo](contact.qmd){.btn .btn-danger}
 
-## The Four Dimensions of VIBE
 
-<div style="display: flex; justify-content: center; gap: 2.5em; margin-bottom: 2em;">
 
-<div style="text-align:center; width:120px;">
-{{< iconify mdi:flash-outline color=red width=48 >}}
-<br>
-**Vigor**
-<br>
-<span style="color: #ff3d3d;">Energy & drive</span>
-</div>
+DISCOVER WHAT DRIVES YOUR TEAM'S SUCCESS -- unlock insights into your workplace culture and boost team performance
 
-<div style="text-align:center; width:120px;">
-{{< iconify mdi:water-outline color=blue width=48 >}}
-<br>
-**Immersion**
-<br>
-<span style="color: #2986cc;">Focus & flow</span>
-</div>
+Your team’s [VIBE]{.vibe} matters! 
 
-<div style="text-align:center; width:120px;">
-{{< iconify mdi:account-group-outline color=teal width=48 >}}
-<br>
-**Belongingness**
-<br>
-<span style="color: #00bfae;">Connection & inclusion</span>
-</div>
+Within our stakeholder dashboard, you’ll [discover how](how.qmd) [VIBE]{.vibe} transforms workforce energy into results. 
 
-<div style="text-align:center; width:120px;">
-{{< iconify mdi:star-outline color=gold width=48 >}}
-<br>
-**Engagement**
-<br>
-<span style="color: #ffc300;">Commitment & impact</span>
-</div>
+gain actionable insights to enhance workplace productivity and employee satisfaction.
 
-</div>
+:::

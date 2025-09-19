@@ -1,82 +1,140 @@
 ---
 title: ""
 ---
-
-<div style="background:linear-gradient(90deg,#ff3d3d,#ffc300);padding:1em;text-align:center;color:white;font-size:1.2em;">
-{{< iconify mdi:pulse color=white width=32 >}}  
-**Ready to energize your organization?**
-</div> 
-
-```{css, echo=FALSE}
-  .form-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .form-container input,
-  .form-container textarea {
-    width: 90%;
-    box-sizing: border-box;
-  }
-```
-
+<div style="display: flex; justify-content: center;">
+![](https://static.vecteezy.com/system/resources/previews/005/441/842/non_2x/race-line-with-start-banner-isolated-free-vector.jpg){height="250"}
+</div>
 
 ::: {.columns}
-::: {.column width="65%"}
 
-Complete the form below for a free consultation or [reach out directly {{< iconify mdi:email-edit style="color:red" width=32 >}}](mailto:jtkulas@ergreports.com)
+::: {.column width="60%"}
 
-## Contact Form {#contact}
+Survey setup is quick & easy -- select one of the options below for a free consultation on how your organization can get started with [VIBE]{.vibe}:
 
-```{=html}
-<div class="form-container">
-  <form action="/submit-form" method="POST" enctype="multipart/form-data">
-    <label for="name">Your Name:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
-    <label for="org">Organization Name:</label><br>
-    <input type="text" id="org" name="organization" required><br><br>
-    <label for="siz">Org Size (approximate # of employees):</label><br>
-    <input type="text" id="siz" name="size" required><br><br>
-    <label for="email">Your Email:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="4" required></textarea><br><br>
-    <label for="code">Referral Name or Code:</label><br>
-    <input type="text" id="code" name="code" required><br><br>
-    <input type="submit" value="Send" class="btn btn-danger">
+:::
+
+::: {.column width="40%"}
+
+![](img/logo.png){.absolute height="70"}
+
+:::
+
+:::
+
+<div class="contact-cards">
+
+<div class="contact-card">
+  <span class="contact-icon">💬</span>
+  <h3 style="color: var(--quarto-body-text);">Get Started:</h3>
+  <form action="https://formspree.io/f/mrgvpwqd" method="POST" class="contact-form">
+    <input type="email" name="email" placeholder="Your Contact Info" autocomplete="email" required>
+    <textarea name="message" placeholder="I would like to learn a little more..." required></textarea>
+    <input type="text" name="coupon_code" placeholder="Referral code">
+    <button type="submit">Send Message</button>
   </form>
 </div>
-```
 
-** currently doesn't send just autopopulates content into email **
+<div class="contact-card">
+  <span class="contact-icon">📧</span>
+  <h3 style="color: var(--quarto-body-text);">Email Us:</h3>
+  <img src="https://thumbs.dreamstime.com/b/hand-drawn-minnesota-state-sketch-outline-cursive-text-101577127.jpg" alt="Minnesota State Silhouette" style="display: block; margin: 1em auto; height: 230px; opacity: 0.7;">
+  <p>
+    <a href="mailto:info@ergreports.com">info@ergreports.com</a>
+  </p>
+</div>
+
+</div>
+
+<br>
+
+## Let's connect!
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+Not ready to [VIBE]{.vibe} quite yet but want to stay connected? We'd love to hear what you've been up to and will also share important updates on our end:
+
+<div style="display: flex; justify-content: center;">
+![](img/logo.png){height="150"}
+</div>
+
 :::
 
-::: {.column width="35%"}
+::: {.column width="50%"}
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
-library(leaflet)
-library(dplyr)
+<div class="contact-cards">
 
-content <- paste(sep = "<br/>",
-  "<b><a href='https://ergweb.netlify.app/'>VIBE HQ</a></b>",
-  "Minneapolis, MN 55421"
-)
+<div class="contact-card">
+  <span class="contact-icon">📱</span>
+  <h3 style="color: var(--quarto-body-text);">Connect With Us:</h3>
+  <p>
+    <a href="https://x.com/jtkulas" target="_blank">{{< iconify devicon:twitter >}}</a> &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/johntkulas/" target="_blank">{{< iconify devicon:linkedin >}}</a>
+  </p>
+</div>
 
-hc_gdpr <- leaflet() %>%
-  setView(lng= -93.24649681376336, lat=44.99948959471243, zoom=9) %>%
-  addTiles() %>%
-  addPopups(-93.24649681376336, 44.99948959471243, content,
-    options = popupOptions(closeButton = FALSE)) %>%
-  addProviderTiles("Stadia.StamenToner")
+</div>
 
-htmlwidgets::saveWidget(hc_gdpr, "hc_gdpr.html", selfcontained = TRUE, knitrOptions = list())
-hc_gdpr
-
-```
 :::
+
 :::
 
 ---
 
 **[VIBE]{.vibe}** is a product division of [![](img/erg3.png)](https://www.ergreports.com){.external}  
 Minneapolis, MN 55421  
+
+<style>
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+.contact-card {
+  background: var(--quarto-background2);
+  border-radius: 0.75em;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  padding: 2em 1.5em;
+  width: 320px;
+  min-height: 260px;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+.contact-card:hover {
+  box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+}
+.contact-icon {
+  font-size: 2.5em;
+  display: block;
+  margin-bottom: 0.5em;
+}
+.contact-form input[type="email"], .contact-form input[type="text"], .contact-form textarea {
+  width: 90%;
+  margin-bottom: 0.8em;
+  border-radius: 0.5em;
+  border: 1px solid #ddd;
+  padding: 0.7em;
+  font-size: 1em;
+}
+.contact-form textarea {
+  min-height: 70px;
+  resize: vertical;
+}
+.contact-form button {
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.8em 1.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-form button:hover {
+  background: #005bb5;
+}
+</style>
+

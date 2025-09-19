@@ -27,11 +27,11 @@ website:
       - text: Get Started
         href: contact.qmd
     right: 
-      - icon: twitter
+      - icon: twitter-x
         href: https://x.com/jtkulas
   page-footer:
     left: "© 2025 [VIBE]{.vibe} Survey"
-    center: "[Vigor | Intensity | Belongingness | ENGAGEMENT]{.vibe}"
+    center: "[Vigor | Immersion | Belongingness ENGAGEMENT]{.vibe}"
     right: "[Privacy Policy](privacy.qmd) | [Contact](contact.qmd)"
   announcement: 
     icon: exclamation-triangle

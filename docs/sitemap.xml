@@ -2,35 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://jtkulas.github.io/vibe/why.html</loc>
-    <lastmod>2025-08-06T15:02:52.588Z</lastmod>
+    <lastmod>2025-09-19T18:51:04.240Z</lastmod>
   </url>
   <url>
     <loc>https://jtkulas.github.io/vibe/pricing.html</loc>
     <lastmod>2025-08-08T19:36:34.866Z</lastmod>
   </url>
   <url>
-    <loc>https://jtkulas.github.io/vibe/how.html</loc>
-    <lastmod>2025-08-08T19:41:40.694Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jtkulas.github.io/vibe/contact.html</loc>
-    <lastmod>2025-08-25T16:32:11.583Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jtkulas.github.io/vibe/about.html</loc>
-    <lastmod>2025-07-19T22:27:50.336Z</lastmod>
-  </url>
-  <url>
-    <loc>https://jtkulas.github.io/vibe/altpricing.html</loc>
-    <lastmod>2025-08-08T19:17:44.826Z</lastmod>
+    <loc>https://jtkulas.github.io/vibe/index.html</loc>
+    <lastmod>2025-09-19T13:02:50.986Z</lastmod>
   </url>
   <url>
     <loc>https://jtkulas.github.io/vibe/grok.html</loc>
     <lastmod>2025-08-26T00:13:04.196Z</lastmod>
   </url>
   <url>
-    <loc>https://jtkulas.github.io/vibe/index.html</loc>
-    <lastmod>2025-09-04T19:37:57.173Z</lastmod>
+    <loc>https://jtkulas.github.io/vibe/altpricing.html</loc>
+    <lastmod>2025-08-08T19:17:44.826Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jtkulas.github.io/vibe/about.html</loc>
+    <lastmod>2025-07-19T22:27:50.336Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jtkulas.github.io/vibe/contact.html</loc>
+    <lastmod>2025-09-19T18:49:29.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jtkulas.github.io/vibe/how.html</loc>
+    <lastmod>2025-08-08T19:41:40.694Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jtkulas.github.io/vibe/notes.html</loc>
+    <lastmod>2025-09-18T17:37:08.647Z</lastmod>
   </url>
   <url>
     <loc>https://jtkulas.github.io/vibe/privacy.html</loc>

@@ -7,72 +7,32 @@ title: ""
 # [VIBE]{.vibe} transforms workforce energy into results:
 
 ::: {style="text-align: center;"}
-[V]{.vibe .underline}[igor]{.vibe} $+$ [I]{.vibe .underline}[mmersion]{.vibe} $+$ [B]{.vibe .underline}[elongingness]{.vibe} $=$ [E]{.vibe .underline}[ngagement]{.vibe}
+[V]{.vibe .underline}[igor]{.vibe} {{< iconify mdi:plus-box >}} [I]{.vibe .underline}[mmersion]{.vibe} {{< iconify mdi:plus-box >}} [B]{.vibe .underline}[elongingness]{.vibe} {{< iconify mdi:arrow-right-bold-box >}} [E]{.vibe .underline}[ngagement]{.vibe}
 :::
 
 ::: {style="overflow: auto;"}
 
-# Discover What Drives Your Team’s Success -- unlock insights into your workplace culture and boost team performance 
-
-Your team’s [VIBE]{.vibe} matters. Our engagement survey helps you understand what motivates your employees, identifies areas for improvement, and fosters a thriving workplace. 
-
-In just 5 minutes, you’ll gain actionable insights to enhance productivity and satisfaction. [Discover how](how.qmd) [VIBE]{.vibe} transforms workforce energy into results. This is a paragraph of text that wraps around the image. The `overflow: auto;` on the div ensures the container clears the float properly, preventing layout issues.
-
 ![](img/logo.png){style="float: right; margin-left: 1em; width: 20%;"}
 
-## Why Take the [VIBE]{.vibe} Engagement Survey?
+# Why assess your [VIBE]{.vibe}?
 
-- **Uncover Hidden Insights**: Identify what drives employee engagement and where challenges lie.
-- **Quick and Easy**: Complete the survey in under 5 minutes, designed for busy professionals.
-- **Actionable Results**: Receive a tailored report with clear steps to improve workplace culture.
-- **Trusted by Leaders**: Join companies like [Client Name] who transformed their teams with Vibe.
+- {{< iconify streamline-color:ai-technology-spark-flat >}} **Uncover Hidden Insights**: Identify engagement deficits and know where to direct attention
+- {{< iconify streamline-color:chat-bubble-square-write-flat >}} **Quick and Easy**: Complete the survey in under 5 minutes, designed for busy professionals
+- {{< iconify streamline-color:decent-work-and-economic-growth-flat >}} **Actionable Results**: Receive tailored reports with clear steps to improve workplace culture
+- {{< iconify streamline-color:dollar-coin-1-flat>}} **Affordable**: Deployed on a scalable platform developed by data science practitioners
 
+::: {.callout-note style="float: left; margin-right: 1em; width: 40%;"}
+
+### **What Makes [VIBE]{.vibe} Different?**
+
+- Proprietary metrics {{< iconify streamline-color:device-database-encryption-1-flat >}}
+- Intuitive dashboard {{< iconify streamline-color:heart-rate-pulse-graph-flat >}}
+- Proven impact {{< iconify streamline-color:bag-dollar-flat >}}
+- Science--based {{< iconify streamline-color:ai-science-spark-flat >}}
 :::
 
-## Try a Sample Question
+Our 18--item survey helps you understand what ***motivates*** your employees, identifies ***areas for improvement***, and fosters a ***thriving*** workplace. 
 
-How often do your employees feel recognized for their contributions?  
-- [ ] Always  
-- [ ] Often  
-- [ ] Sometimes  
-- [ ] Rarely  
-- [ ] Never  
+[See How [VIBE]{.vibe} Works](how.qmd) or [Request a Demo](contact.qmd){.btn .btn-danger}
 
-[See How Vibe Works](how.qmd)
-
-# STYLE IDEAS for a Corporate Sales Website
-1. Color Palette
-Use a clean, professional palette: Black, white, gray, and accent with VIBE’s red.
-Red can highlight calls-to-action (buttons, contact info, etc.) and reinforce branding.
-Avoid academic blues or muted tones—go for confident, energetic contrasts.
-2. Typography
-Use modern, sans-serif fonts for headings (e.g., Montserrat, Roboto, Open Sans).
-Use a readable body font (e.g., Lato, Arial).
-Headings should be bold and clear.
-3. Layout
-Hero section: Prominent logo, punchy headline, visible CTA (e.g., "Request a Demo").
-Short, value-focused sections: What is VIBE? What makes it different? Benefits for organizations.
-Include testimonials, client logos, or “trusted by” section.
-Simple navigation: Home, Why VIBE, How It Works, Pricing, Contact.
-4. Imagery
-Use your logo in the header.
-Add workplace imagery (stock photos of teams, collaboration, happy employees).
-Use icons for features (Vigor, Immersion, Belongingness, Engagement).
-5. Calls to Action
-Buttons: "Request Demo," "Contact Sales," "Download Sample Report"
-Emphasize conversion paths.
-6. Footer
-Legal info, privacy policy, social links, contact.
-
-::: {.callout-note}
-{{< iconify mdi:star-multiple color=gold width=24 >}}
-**What Makes VIBE Different?**
-- Proprietary metrics
-- Intuitive dashboards
-- Proven impact
 :::
-
-{{< iconify mdi:chart-areaspline color=red width=36 >}}  
-**Drive Engagement. Inspire Performance.**
-
-[Request Demo](contact.qmd){.btn .btn-danger}
