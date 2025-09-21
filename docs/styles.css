@@ -36,6 +36,10 @@ body {
   font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
 }
 
+.title {
+  display: none;  /* avoiding "empty title" rendering messages */
+}
+
 .shake {
   animation-name: shake;
   animation-duration: 4s; /* Total cycle: 2s shake + 2s pause */

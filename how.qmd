@@ -37,4 +37,25 @@ Here’s what you can expect:
 **Simple. Secure. Insightful.**
 :::
 
-[Download Sample Report](#){.btn .btn-danger}
+## Company--wide reports
+
+Organization--wide reports are provided in two forms: ***full*** and ***abridged***. The full report contains descriptive information regarding survey results including overall engagement scores, motives, components, individual item rankings, and any past--years' comparisons. The abridged report contains an overall engagement aggregate as well as individual item rankings. Both reports also provide context to the broader survey as well as [VIBE]{.vibe} personnel contact information. Neither report includes normative/benchmark information regarding comparisons to other organizations (this comparative information is only included in the client dashboard).
+
+::: {.columns}
+
+::: {.column width="50%"}
+![](img/fullreport.PNG){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
+<div style="display: flex; justify-content: center;">
+[Example Report (Full)](staticpdf.pdf){.btn .btn-danger}
+</div>
+:::
+
+::: {.column width="50%"}
+![](img/abridged.PNG){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
+<div style="display: flex; justify-content: center;">
+[Example Report (Abridged)](staticpdf_minimal.pdf){.btn .btn-danger}
+</div>
+:::
+
+:::
+

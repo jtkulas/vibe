@@ -45,6 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-dark-08799928d293638fe9563d5c5a2794e5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-cc63fce9873912f1bbbccf05079cc9ea.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -407,7 +410,23 @@ Note
 <p><strong>Simple. Secure. Insightful.</strong></p>
 </div>
 </div>
-<p><a href="#" class="btn btn-danger">Download Sample Report</a></p>
+</section>
+<section id="companywide-reports" class="level2">
+<h2 class="anchored" data-anchor-id="companywide-reports">Company–wide reports</h2>
+<p>Organization–wide reports are provided in two forms: <strong><em>full</em></strong> and <strong><em>abridged</em></strong>. The full report contains descriptive information regarding survey results including overall engagement scores, motives, components, individual item rankings, and any past–years’ comparisons. The abridged report contains an overall engagement aggregate as well as individual item rankings. Both reports also provide context to the broader survey as well as <span class="vibe">VIBE</span> personnel contact information. Neither report includes normative/benchmark information regarding comparisons to other organizations (this comparative information is only included in the client dashboard).</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<a href="img/fullreport.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/fullreport.PNG" class="img-fluid" style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"></a>
+<div style="display: flex; justify-content: center;">
+<p><a href="staticpdf.pdf" class="btn btn-danger">Example Report (Full)</a></p>
+</div>
+</div><div class="column" style="width:50%;">
+<a href="img/abridged.PNG" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="img/abridged.PNG" class="img-fluid" style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"></a>
+<div style="display: flex; justify-content: center;">
+<p><a href="staticpdf_minimal.pdf" class="btn btn-danger">Example Report (Abridged)</a></p>
+</div>
+</div>
+</div>
 
 
 </section>
@@ -840,6 +859,38 @@ Note
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Why"
 ---
 <div style="display: flex; justify-content: center;">
 ![](img/happy.jpg){alt="employees jumping with excitement" height="250"}
