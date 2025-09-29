@@ -13,7 +13,11 @@ Survey setup is quick & easy -- select one of the options below for a free consu
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="35%"}
 
 ![](img/logo.png){.absolute height="70"}
 

@@ -46,16 +46,43 @@ Organization--wide reports are provided in two forms: ***full*** and ***abridged
 ::: {.column width="50%"}
 ![](img/fullreport.PNG){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
 <div style="display: flex; justify-content: center;">
-[Example Report (Full)](staticpdf.pdf){.btn .btn-danger}
+[Example Report (Full)](staticpdf.pdf){.btn .btn-outline-primary}
 </div>
 :::
 
 ::: {.column width="50%"}
 ![](img/abridged.PNG){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
 <div style="display: flex; justify-content: center;">
-[Example Report (Abridged)](staticpdf_minimal.pdf){.btn .btn-danger}
+[Example Report (Abridged)](staticpdf_minimal.pdf){.btn .btn-outline-primary}
 </div>
 :::
 
 :::
+
+## [VIBE]{.vibe} Dashboard{{< iconify mdi:trademark >}}
+
+Decision--maker access to results occurs within the [VIBE]{.vibe} dashboard{{< iconify mdi:trademark >}}, with features including:
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+{{< iconify mdi:brush-outline >}} **Your Brand Style**<br>
+{{< iconify mdi:compass-outline >}} **Intuitive Navigation**
+
+:::
+
+::: {.column width="50%"}
+
+{{< iconify mdi:password-check-outline >}} **Password Security**<br>
+{{< iconify mdi:report-box-multiple-outline >}} **Localized Reporting**
+
+:::
+
+:::
+
+
+![](img/dashsnip)
+
+[Example Dashboard](https://jtkulas.shinyapps.io/dashplayground){.btn .btn-outline-primary}
 
