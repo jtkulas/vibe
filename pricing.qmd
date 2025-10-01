@@ -3,6 +3,8 @@ title: ""
 engine: knitr
 ---
 
+![](img/commerce.jpg){style="float: right; margin-left: 1em; width: 40%;"}
+
 # ![](img/logo.png){.absolute height="50"} Pricing Tables
 
 [VIBE]{.vibe} offers simplified out--of--the--box plans designed for organizations with 300–1,000 employees.  
@@ -21,58 +23,61 @@ No hidden fees—-just pre--packaged deliverables with actionable insights:
 
 ::: {.column width="33%"}
 
-## 300--500 Employees
+## Nimble
 
 $6,000
 
-✔️ Dashboard access (25)  
+✔️ {{< iconify fa-solid:less-than >}} **500 employees** surveyed  
+✔️ Dashboard access (**25**){{< iconify stash:asterisk >}}  
 ✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
 ✔️ Benchmark comparisons  
 ✔️ 1 year support 
 
-[[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
+[[[VIBE]{.vibe} Nimble]{.btn .btn-outline-primary}](contact.qmd)
 
 :::
 
 ::: {.column width="33%"}
 
-## 500--750 Employees
+## Brisk 
 
 $7,500
 
-✔️ Dashboard access (40)    
+✔️ {{< iconify fa-solid:less-than >}} **750 employees** surveyed  
+✔️ Dashboard access (**40**){{< iconify stash:asterisk >}}    
 ✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
 ✔️ Benchmark comparisons  
 ✔️ 1 year support  
 
-[[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
+[[[VIBE]{.vibe} Brisk]{.btn .btn-outline-primary}](contact.qmd)
 
 :::
 
 ::: {.column width="33%"}
 
-## 750--1000 Employees
+## Bold 
 
 $9,000
 
-✔️ Dashboard access (55)  
+✔️ {{< iconify fa-solid:less-than >}}  **1,000 employees** surveyed 
+✔️ Dashboard access (**55**){{< iconify stash:asterisk >}}  
 ✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
 ✔️ Benchmark comparisons  
 ✔️ 1 year support  
 
-[[Buy Now]{.btn .btn-outline-primary}](contact.qmd)
+[[[VIBE]{.vibe} Bold]{.btn .btn-outline-primary}](contact.qmd)
 
 :::
 
 :::
 
-Dashboard access is intended for 2^nd^--level manager and above 
+{{< iconify hugeicons:asterisk >}} Dashboard access is generally recommended for 2^nd^--level managers and above 
 
 ## Add-Ons
 
@@ -80,27 +85,11 @@ Dashboard access is intended for 2^nd^--level manager and above
 - On-site workshops
 - Additional reporting
 
-{{< iconify mdi:currency-usd color=green width=36 >}}  
-Transparent, simple packages?
-
-
-
-# Simple, Transparent Pricing
-
-
-
-## Packages
-
-| Plan          | Employees   | Price (USD) | Features                      |
-|:--------------|:-----------:|:-----------:|:------------------------------|
-| Standard      | 300–499     | $4,000      | Survey, Reports, Email Support|
-| Professional  | 500–700     | $5,500      | All Standard + Consultation   |
-
 *Volume discounts available for multi-year agreements.*
 
 
 We also accept [{{< iconify logos:bitcoin >}}](https://bitcoin.org/en/) at current market USD equivalence  
 
 Contact us for a custom proposal.  
-[Contact Sales](contact.qmd){.btn .btn-danger}
+[Contact Sales](contact.qmd){.btn .btn-outline-primary}
 

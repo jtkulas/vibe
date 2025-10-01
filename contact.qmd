@@ -32,9 +32,9 @@ Survey setup is quick & easy -- select one of the options below for a free consu
   <h3 style="color: var(--quarto-body-text);">Get Started:</h3>
   <form action="https://formspree.io/f/mrgvpwqd" method="POST" class="contact-form">
     <input type="email" name="email" placeholder="Your Contact Info" autocomplete="email" required>
-    <textarea name="message" placeholder="I would like to learn a little more..." required></textarea>
+    <textarea name="message" placeholder="We are interested in the [Nimble, Brisk, Bold] bundle..." required></textarea>
     <input type="text" name="coupon_code" placeholder="Referral code">
-    <button type="submit">Send Message</button>
+    <button type="submit" class="btn btn-outline-primary">Send Message</button>
   </form>
 </div>
 
@@ -51,7 +51,7 @@ Survey setup is quick & easy -- select one of the options below for a free consu
 
 <br>
 
-## Let's connect!
+## Stay connected
 
 ::: {.columns}
 

@@ -47,6 +47,16 @@ body {
   animation-timing-function: ease-in-out; /* Smooths the shake motion */
 }
 
+.contact-card .btn.btn-outline-primary {
+  background-color: transparent;
+  border-color: var(--bs-primary); /* Adjust to match Quarto’s primary color */
+  color: var(--bs-primary);
+}
+.contact-card .btn.btn-outline-primary:hover {
+  background-color: var(--bs-primary);
+  color: white; /* Adjust based on Quarto’s hover styles */
+}
+
 .navbar {
   background-color: #101010;
 }

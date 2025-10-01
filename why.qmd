@@ -64,41 +64,30 @@ title: "Why"
 
 ## Distinct Advantages
 
+![](img/logo.png){style="float: right; margin-left: 1em; width: 20%;"}
+
 - **Purpose-built for mid-sized organizations (300–700 employees)**
 - **Confidential administration** ensures honest feedback
 - **Actionable, easy-to-understand reports** for HR and leadership
 - **Rapid setup:** Launch in days, not weeks
 - **Expert support:** Guidance from survey specialists
 
-## What Makes VIBE Different?
+::: {.callout-note style="float: right; margin-left: 1em; width: 40%;"}
 
-**Transparent Pricing** with tier options
+### **What Makes [VIBE]{.vibe} Different?**
 
-::: {.callout-note}
-- Proprietary metrics tailored to today's workforce
-- Intuitive dashboards and visual feedback
-- Proven impact on retention and satisfaction
-:::
-
-::: {.callout-note}
-{{< iconify mdi:star-multiple color=gold width=24 >}}
-**What Makes VIBE Different?**
-- Proprietary metrics
-- Intuitive dashboards
-- Proven impact
++ {{< iconify streamline-color:bag-dollar-flat >}} **Transparent Pricing** with tier options 
+- {{< iconify streamline-color:graph-dot-flat >}} **Proprietary metrics** tailored to today's workforce 
+- {{< iconify streamline-color:code-monitor-1-flat >}} **Intuitive dashboards** and actionable visuals 
+- {{< iconify streamline-color:heart-rate-pulse-graph-flat >}} Proven impact on **retention and satisfaction** 
 :::
 
 Ready for a healthier, more engaged workplace?  
-[Request a Demo](contact.qmd){.btn .btn-danger}
-
-
-
-DISCOVER WHAT DRIVES YOUR TEAM'S SUCCESS -- unlock insights into your workplace culture and boost team performance
-
-Your team’s [VIBE]{.vibe} matters! 
 
 Within our stakeholder dashboard, you’ll [discover how](how.qmd) [VIBE]{.vibe} transforms workforce energy into results. 
 
-gain actionable insights to enhance workplace productivity and employee satisfaction.
+[DISCOVER WHAT DRIVES YOUR TEAM'S SUCCESS]{.vibe} -- unlock insights into your workplace culture and boost team performance {{< iconify mdi:rocket-launch-outline >}}
+
+[Request a Demo](contact.qmd){.btn .btn-outline-primary}
 
 :::

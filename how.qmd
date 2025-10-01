@@ -67,7 +67,7 @@ Decision--maker access to results occurs within the [VIBE]{.vibe} dashboard{{< i
 
 ::: {.column width="50%"}
 
-{{< iconify mdi:brush-outline >}} **Your Brand Style**<br>
+{{< iconify mdi:brush-outline >}} **Customized Branding**<br>
 {{< iconify mdi:compass-outline >}} **Intuitive Navigation**
 
 :::
