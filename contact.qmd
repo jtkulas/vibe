@@ -28,6 +28,7 @@ Survey setup is quick & easy -- select one of the options below for a free consu
 <div class="contact-cards">
 
 <div class="contact-card">
+  <a id="contact-form"></a>
   <span class="contact-icon">💬</span>
   <h3 style="color: var(--quarto-body-text);">Get Started:</h3>
   <form action="https://formspree.io/f/mrgvpwqd" method="POST" class="contact-form">

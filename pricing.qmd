@@ -9,13 +9,27 @@ engine: knitr
 
 [VIBE]{.vibe} offers simplified out--of--the--box plans designed for organizations with 300–1,000 employees.  
 
-## What's Included (TLDR Version)
+## Included Services (TLDR Version)
 
-- Survey setup and deployment
-- Confidential data handling
-- Company--wide summary reports
-- Decision--maker dashboard
-- Actionable recommendations
+::: {.columns}
+
+::: {.column width="50%"}
+
+{{< iconify mdi:tools width=28 >}} Survey setup and deployment<br>
+{{< iconify mdi:security-lock width=28 >}} Confidential data handling<br>
+{{< iconify mdi:report-areaspline width=28 >}} Company--wide summary reports
+
+:::
+
+::: {.column width="50%"}
+
+{{< iconify mdi:monitor-dashboard width=28 >}} Decision--maker dashboard<br>
+{{< iconify mdi:call-to-action width=28 >}} Actionable recommendations<br>
+{{< iconify mdi:support width=28 >}} 1--year technical support
+
+:::
+
+:::
 
 No hidden fees—-just pre--packaged deliverables with actionable insights:
 
@@ -28,14 +42,14 @@ No hidden fees—-just pre--packaged deliverables with actionable insights:
 $6,000
 
 ✔️ {{< iconify fa-solid:less-than >}} **500 employees** surveyed  
-✔️ Dashboard access (**25**){{< iconify stash:asterisk >}}  
+✔️ Dashboard access (**25**)^\*^  
 ✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
 ✔️ Benchmark comparisons  
 ✔️ 1 year support 
 
-[[[VIBE]{.vibe} Nimble]{.btn .btn-outline-primary}](contact.qmd)
+[[[VIBE]{.vibe} Nimble]{.btn .btn-outline-primary}](contact.qmd#contact-form)
 
 :::
 
@@ -46,14 +60,14 @@ $6,000
 $7,500
 
 ✔️ {{< iconify fa-solid:less-than >}} **750 employees** surveyed  
-✔️ Dashboard access (**40**){{< iconify stash:asterisk >}}    
+✔️ Dashboard access (**40**)^\*^    
 ✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
 ✔️ Benchmark comparisons  
 ✔️ 1 year support  
 
-[[[VIBE]{.vibe} Brisk]{.btn .btn-outline-primary}](contact.qmd)
+[[[VIBE]{.vibe} Brisk]{.btn .btn-outline-primary}](contact.qmd#contact-form)
 
 :::
 
@@ -64,20 +78,20 @@ $7,500
 $9,000
 
 ✔️ {{< iconify fa-solid:less-than >}}  **1,000 employees** surveyed 
-✔️ Dashboard access (**55**){{< iconify stash:asterisk >}}  
+✔️ Dashboard access (**55**)^\*^  
 ✔️ Filtered actionable recommendations  
 ✔️ Company--wide report (full)  
 ✔️ Company--wide report (abridged)  
 ✔️ Benchmark comparisons  
 ✔️ 1 year support  
 
-[[[VIBE]{.vibe} Bold]{.btn .btn-outline-primary}](contact.qmd)
+[[[VIBE]{.vibe} Bold]{.btn .btn-outline-primary}](contact.qmd#contact-form)
 
 :::
 
 :::
 
-{{< iconify hugeicons:asterisk >}} Dashboard access is generally recommended for 2^nd^--level managers and above 
+>{{< iconify hugeicons:asterisk >}} Dashboard access is generally recommended for 2^nd^--level managers and above 
 
 ## Add-Ons
 
