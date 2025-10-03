@@ -48,3 +48,4 @@ format:
     css: styles.css
     respect-user-color-scheme: true
 #    embed-resources: true            ## iframe w actual survey
+    include-before-body: iconify-script.html

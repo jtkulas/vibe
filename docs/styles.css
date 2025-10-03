@@ -57,6 +57,14 @@ body {
   color: white; /* Adjust based on Quarto’s hover styles */
 }
 
+.contact-icon {
+  font-size: 2.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.5em;
+}
+
 .navbar {
   background-color: #101010;
 }
