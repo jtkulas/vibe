@@ -39,7 +39,40 @@ Here’s what you can expect:
 
 ## Company--wide reports
 
-Organization--wide reports are provided in two forms: ***full*** and ***abridged***. The full report contains descriptive information regarding survey results including overall engagement scores, motives, components, individual item rankings, and any past--years' comparisons. The abridged report contains an overall engagement aggregate as well as individual item rankings. Both reports also provide context to the broader survey as well as [VIBE]{.vibe} personnel contact information. Neither report includes normative/benchmark information regarding comparisons to other organizations (this comparative information is only included in the client dashboard).
+Organization--wide reports are provided in two forms: ***full*** and ***abridged***. 
+
+The full report contains descriptive information regarding survey results including overall engagement scores, motives, components, individual item rankings, and any past--years' comparisons. The abridged report contains an overall engagement aggregate as well as individual item rankings. Both reports also provide context to the broader survey as well as [VIBE]{.vibe} personnel contact information. Neither report includes normative/benchmark information regarding comparisons to other organizations (this comparative information is only included in the client dashboard).
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+## Full Report
+
+✔️ Overall [VIBE]{.vibe} score<br> 
+✔️ Individual item rankings<br> 
+✔️ Context summary<br>
+✔️ Vendor contact info<br>
+✔️ Engagement motives<br> 
+✔️ Engagement components<br>
+✔️ Past--years' comparisons<br>
+❌ Cross--org comparisons
+::: 
+
+::: {.column width="50%"}
+## Abridged Report
+
+✔️ Overall [VIBE]{.vibe} score<br> 
+✔️ Individual item rankings<br> 
+✔️ Context summary<br>
+✔️ Vendor contact info<br>
+❌ ️Engagement motives<br>
+❌  nngagementc mponents <br> 
+❌  Past--years' comparisons<br>
+❌ Coss--org comparisons
+:::
+
+:::
 
 ::: {.columns}
 
@@ -61,28 +94,31 @@ Organization--wide reports are provided in two forms: ***full*** and ***abridged
 
 ## [VIBE]{.vibe} Dashboard{{< iconify mdi:trademark >}}
 
-Decision--maker access to results occurs within the [VIBE]{.vibe} dashboard{{< iconify mdi:trademark >}}, with features including:
+Decision--maker access to results, reports, and recommendations occurs within the [VIBE]{.vibe} dashboard{{< iconify mdi:trademark >}}, with features including:
 
 ::: {.columns}
 
 ::: {.column width="50%"}
 
 {{< iconify mdi:brush-outline >}} **Customized Branding**<br>
-{{< iconify mdi:compass-outline >}} **Intuitive Navigation**
+{{< iconify mdi:compass-outline >}} **Intuitive Navigation**<br>
+{{< iconify mdi:shopping-favorite >}} **One--Stop Shop**
 
 :::
 
 ::: {.column width="50%"}
 
 {{< iconify mdi:password-check-outline >}} **Password Security**<br>
-{{< iconify mdi:report-box-multiple-outline >}} **Localized Reporting**
+{{< iconify mdi:report-box-multiple-outline >}} **Localized Reporting**<br>
+{{< iconify mdi:lightning-bolt-circle >}} **Real--time Data Processing**
 
 :::
 
 :::
 
 
-![](img/dashsnip)
+![](img/dashsnip){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
 
+<div style="display: flex; justify-content: center;">
 [Example Dashboard](https://jtkulas.shinyapps.io/dashplayground){.btn .btn-outline-primary}
-
+</div>

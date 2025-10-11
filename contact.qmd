@@ -40,7 +40,8 @@ Survey setup is quick & easy -- select one of the options below for a free consu
 </div>
 
 <div class="contact-card">
-  <span class="iconify contact-icon" data-icon="streamline-ultimate-color:send-email-fly"></span>
+  <a id="email-form"></a>
+  <span class="iconify contact-icon" data-icon="streamline-kameleon-color:quill-paper"></span>
   <h3 style="color: var(--quarto-body-text);">Email Us:</h3>
   <img src="https://thumbs.dreamstime.com/b/hand-drawn-minnesota-state-sketch-outline-cursive-text-101577127.jpg" alt="Minnesota State Silhouette" style="display: block; margin: 1em auto; height: 230px; opacity: 0.7;">
   <p>
@@ -71,7 +72,7 @@ Not ready to [VIBE]{.vibe} quite yet but want to stay connected? We'd love to he
 <div class="contact-cards">
 
 <div class="contact-card">
-  <span class="iconify contact-icon" data-icon="streamline-ultimate-color:user-network"></span>
+  <span class="iconify contact-icon" data-icon="streamline-kameleon-color:businessman-globe"></span>
   <h3 style="color: var(--quarto-body-text);">Connect With Us:</h3>
   <p>
     <a href="https://x.com/jtkulas" target="_blank">{{< iconify devicon:twitter >}}</a> &nbsp;|&nbsp;

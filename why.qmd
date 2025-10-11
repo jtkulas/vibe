@@ -66,7 +66,7 @@ title: "Why"
 
 ![](img/logo.png){style="float: right; margin-left: 1em; width: 20%;"}
 
-- **Purpose-built for mid-sized organizations (300–700 employees)**
+- **Purpose-built** for mid--sized organizations (300–1,00 employees)
 - **Confidential administration** ensures honest feedback
 - **Actionable, easy-to-understand reports** for HR and leadership
 - **Rapid setup:** Launch in days, not weeks
@@ -82,12 +82,12 @@ title: "Why"
 - {{< iconify streamline-color:heart-rate-pulse-graph-flat >}} Proven impact on **retention and satisfaction** 
 :::
 
-Ready for a healthier, more engaged workplace?  
+## Ready for a healthier, more engaged workplace?  
 
-Within our stakeholder dashboard, you’ll [discover how](how.qmd) [VIBE]{.vibe} transforms workforce energy into results. 
+Within our stakeholder dashboard, you’ll [discover how](how.qmd) [VIBE]{.vibe} transforms employee attitude into organizational results. 
 
-[DISCOVER WHAT DRIVES YOUR TEAM'S SUCCESS]{.vibe} -- unlock insights into your workplace culture and boost team performance {{< iconify mdi:rocket-launch-outline >}}
+**Gain insight into your workforce** -- unlock insights into your workplace culture and boost team performance {{< iconify mdi:rocket-launch-outline >}}
 
-[Request a Demo](contact.qmd){.btn .btn-outline-primary}
+[Request a Demo](contact.qmd#email-form){.btn .btn-outline-primary}
 
 :::

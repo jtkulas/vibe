@@ -33,6 +33,6 @@ title: ""
 
 Our 18--item survey helps you understand what ***motivates*** your employees, identifies ***areas for improvement***, and fosters a ***thriving*** workplace. 
 
-[See How [VIBE]{.vibe} Works](how.qmd) or [Request a Demo](contact.qmd){.btn .btn-outline-primary}
+[See How [VIBE]{.vibe} Works](how.qmd){.btn .btn-outline-primary} or [Request a Demo](contact.qmd){.btn .btn-outline-primary}
 
 :::

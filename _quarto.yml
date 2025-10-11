@@ -32,7 +32,7 @@ website:
   page-footer:
     left: "© 2025 [VIBE]{.vibe} Survey"
     center: "[Vigor | Immersion | Belongingness ENGAGEMENT]{.vibe}"
-    right: "[Privacy Policy](privacy.qmd) | [Contact](contact.qmd)"
+    right: "[Privacy Policy](privacy.qmd) | [Contact](contact.qmd#email-form)"
   announcement: 
     icon: exclamation-triangle
     dismissable: true
