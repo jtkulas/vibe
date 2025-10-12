@@ -1,53 +1,92 @@
 ---
 title: "How It Works"
 ---
+<div style="display: flex; justify-content: center;">
+![](img/factory.webp){alt="machines along an assembly line representing a manufacturing process" height="250"}
+</div>
 
-![](img/factory.webp)
+# How [VIBE]{.vibe} Works:
 
-| Step             | Iconify Code                                      |
-|------------------|---------------------------------------------------|
-| Launch Survey    | {{< iconify mdi:email-send color=red width=32 >}} |
-| Collect Data     | {{< iconify mdi:database color=teal width=32 >}}  |
-| Get Reports      | {{< iconify mdi:file-chart color=gold width=32 >}}|
-| Take Action      | {{< iconify mdi:lightbulb-on color=blue width=32 >}}|
+```{mermaid}
+flowchart LR
+  A(Launch Survey) --> B(Collect Data)
+  B --> C(Get Reports)
+  C --> D(Take Action)
+```
 
-# How VIBE Works
-
-VIBE streamlines engagement measurement from start to finish.  
-Here’s what you can expect:
-
-## 1. Survey Launch
-- Customizable invitations sent to your team
-- Confidential and mobile-friendly
-
-## 2. Data Collection
-- Employees respond securely
-- Real-time monitoring for response rates
-
-## 3. Reporting & Insights
-- Immediate feedback reports
-- Visual dashboards highlight strengths and opportunities
-- Action recommendations for HR and managers
-
-## 4. Support & Consultation
-- Expert guidance on interpreting results
-- Optional workshops to boost engagement
-
-::: {.callout-note}
-**Simple. Secure. Insightful.**
-:::
-
-## Company--wide reports
-
-Organization--wide reports are provided in two forms: ***full*** and ***abridged***. 
-
-The full report contains descriptive information regarding survey results including overall engagement scores, motives, components, individual item rankings, and any past--years' comparisons. The abridged report contains an overall engagement aggregate as well as individual item rankings. Both reports also provide context to the broader survey as well as [VIBE]{.vibe} personnel contact information. Neither report includes normative/benchmark information regarding comparisons to other organizations (this comparative information is only included in the client dashboard).
+[VIBE]{.vibe} streamlines the survey process from start to finish --- here’s what you can expect:
 
 ::: {.columns}
 
 ::: {.column width="50%"}
 
-## Full Report
+**Survey Launch:**  
+{{< iconify fluent-mdl2:radio-bullet >}} Response invitations sent to your employees  
+{{< iconify fluent-mdl2:radio-bullet >}} Confidential and mobile-friendly
+
+**Data Collection:**  
+{{< iconify fluent-mdl2:radio-bullet >}} Employees respond securely  
+{{< iconify fluent-mdl2:radio-bullet >}} Real-time dashboard monitoring for response rates
+
+:::
+
+::: {.column width="50%"}
+
+**Reporting & Insights:**  
+{{< iconify fluent-mdl2:radio-bullet >}} Immediate feedback reports  
+{{< iconify fluent-mdl2:radio-bullet >}} Visual dashboards highlight strengths and opportunities  
+{{< iconify fluent-mdl2:radio-bullet >}} Action recommendations for HR and managers
+
+**Actions Taken:**  
+{{< iconify fluent-mdl2:radio-bullet >}} Expert guidance on interpreting results  
+{{< iconify fluent-mdl2:radio-bullet >}} Optional workshops to boost engagement  
+
+:::
+
+:::
+
+## [VIBE]{.vibe} Dashboard{{< iconify mdi:trademark >}}
+
+Decision--maker access to all results, reports, and recommendations occurs within the [VIBE]{.vibe} dashboard{{< iconify mdi:trademark >}}, with features including:
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+{{< iconify mdi:brush-outline >}} **Client Branding**<br>
+{{< iconify mdi:compass-outline >}} **Intuitive Navigation**<br>
+{{< iconify mdi:shopping-favorite >}} **One--Stop Shop**
+
+:::
+
+::: {.column width="50%"}
+
+{{< iconify mdi:password-check-outline >}} **Password Security**<br>
+{{< iconify mdi:report-box-multiple-outline >}} **Localized Reporting**<br>
+{{< iconify mdi:lightning-bolt-circle >}} **Real--time Data Processing**
+
+:::
+
+:::
+
+
+![](img/dashsnip){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
+
+<div style="display: flex; justify-content: center;">
+[Example Dashboard](https://jtkulas.shinyapps.io/dashplayground){.btn .btn-outline-primary}
+</div>
+
+## Company--wide reports
+
+Organization--wide reports are accessible from within the dashboard and are provided in two forms: ***full*** and ***abridged***.^[The full report contains descriptive information regarding survey results including overall engagement scores, motives, components, individual item rankings, and any previous--years' results comparisons. The abridged report contains an overall engagement aggregate and individual item rankings. Both reports also provide context to the broader survey as well as [VIBE]{.vibe} personnel contact information. Neither report includes normative/benchmark information regarding comparisons to other organizations or work--group filtered results (this comparative information is only included in the client dashboard).] 
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+## Full Report:
+
+::: {style="margin-left: 2em"}
 
 ✔️ Overall [VIBE]{.vibe} score<br> 
 ✔️ Individual item rankings<br> 
@@ -57,19 +96,27 @@ The full report contains descriptive information regarding survey results includ
 ✔️ Engagement components<br>
 ✔️ Past--years' comparisons<br>
 ❌ Cross--org comparisons
+
+:::
+
 ::: 
 
 ::: {.column width="50%"}
-## Abridged Report
+## Abridged Report:
+
+::: {style="margin-left: 2em"}
 
 ✔️ Overall [VIBE]{.vibe} score<br> 
 ✔️ Individual item rankings<br> 
 ✔️ Context summary<br>
 ✔️ Vendor contact info<br>
 ❌ ️Engagement motives<br>
-❌  nngagementc mponents <br> 
-❌  Past--years' comparisons<br>
-❌ Coss--org comparisons
+❌ Engagemenc components <br> 
+❌ Past--years' comparisons<br>
+❌ Cross--org comparisons
+
+:::
+
 :::
 
 :::
@@ -92,33 +139,4 @@ The full report contains descriptive information regarding survey results includ
 
 :::
 
-## [VIBE]{.vibe} Dashboard{{< iconify mdi:trademark >}}
 
-Decision--maker access to results, reports, and recommendations occurs within the [VIBE]{.vibe} dashboard{{< iconify mdi:trademark >}}, with features including:
-
-::: {.columns}
-
-::: {.column width="50%"}
-
-{{< iconify mdi:brush-outline >}} **Customized Branding**<br>
-{{< iconify mdi:compass-outline >}} **Intuitive Navigation**<br>
-{{< iconify mdi:shopping-favorite >}} **One--Stop Shop**
-
-:::
-
-::: {.column width="50%"}
-
-{{< iconify mdi:password-check-outline >}} **Password Security**<br>
-{{< iconify mdi:report-box-multiple-outline >}} **Localized Reporting**<br>
-{{< iconify mdi:lightning-bolt-circle >}} **Real--time Data Processing**
-
-:::
-
-:::
-
-
-![](img/dashsnip){.lightbox style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"}
-
-<div style="display: flex; justify-content: center;">
-[Example Dashboard](https://jtkulas.shinyapps.io/dashplayground){.btn .btn-outline-primary}
-</div>
