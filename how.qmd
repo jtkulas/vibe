@@ -14,32 +14,32 @@ flowchart LR
   C --> D(Take Action)
 ```
 
-[VIBE]{.vibe} streamlines the survey process from start to finish --- here’s what you can expect:
+[VIBE]{.vibe} streamlines the survey process from start to finish --- here’s what you can expect over the course of 2 weeks:
 
 ::: {.columns}
 
 ::: {.column width="50%"}
 
 **Survey Launch:**  
-{{< iconify fluent-mdl2:radio-bullet >}} Response invitations sent to your employees  
-{{< iconify fluent-mdl2:radio-bullet >}} Confidential and mobile-friendly
+{{< iconify fluent-mdl2:radio-bullet >}} Response invitations sent to your employees by [VIBE]{.vibe} personnel  
+{{< iconify fluent-mdl2:radio-bullet >}} Automated follow--up reminders sent based on response rate
+
 
 **Data Collection:**  
-{{< iconify fluent-mdl2:radio-bullet >}} Employees respond securely  
-{{< iconify fluent-mdl2:radio-bullet >}} Real-time dashboard monitoring for response rates
+{{< iconify fluent-mdl2:radio-bullet >}} Survey itself is confidential, secure, and mobile-friendly  
+{{< iconify fluent-mdl2:radio-bullet >}} Real-time dashboard monitoring for flagging response rates
 
 :::
 
 ::: {.column width="50%"}
 
 **Reporting & Insights:**  
-{{< iconify fluent-mdl2:radio-bullet >}} Immediate feedback reports  
-{{< iconify fluent-mdl2:radio-bullet >}} Visual dashboards highlight strengths and opportunities  
-{{< iconify fluent-mdl2:radio-bullet >}} Action recommendations for HR and managers
+{{< iconify fluent-mdl2:radio-bullet >}} Feedback reports auto--update as responses collected  
+{{< iconify fluent-mdl2:radio-bullet >}} Visual dashboard highlights strengths and opportunities  
 
 **Actions Taken:**  
-{{< iconify fluent-mdl2:radio-bullet >}} Expert guidance on interpreting results  
-{{< iconify fluent-mdl2:radio-bullet >}} Optional workshops to boost engagement  
+{{< iconify fluent-mdl2:radio-bullet >}} Dashboard recommendations (both local and org--wide) are intended to be locally executed  
+{{< iconify fluent-mdl2:radio-bullet >}} Optional workshops offer guidance in action execution
 
 :::
 
